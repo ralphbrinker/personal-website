@@ -1,5 +1,5 @@
 {
-    "name": "Ralph Brinker-functions",
+    "name": "ralph-brinker-functions",
     "description": "Ralph Brinker Cloud Functions for Firebase",
     "scripts": {
         "lint": "eslint .",
