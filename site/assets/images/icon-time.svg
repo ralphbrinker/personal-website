@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="43px" viewBox="0 0 39 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>time</title>
+    <desc>Created with Sketch.</desc>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="large" transform="translate(-141.000000, -2788.000000)">
+            <g id="time" transform="translate(70.000000, 2719.000000)">
+                <g transform="translate(71.000000, 69.000000)">
+                    <polygon id="Path" fill="#162751" fill-rule="nonzero" points="29.85 36.472 25.656 32.278 28.856 26.234 31.506 27.638 29.344 31.722 31.972 34.35"></polygon>
+                    <circle id="Oval" stroke="#162751" stroke-width="2" cx="28" cy="32" r="10"></circle>
+                    <path d="M12.524,36 L4,36 L4,28 L12.524,28 C12.89,26.58 13.44,25.238 14.158,24 L4,24 L4,16 L28,16 C29.384,16 30.72,16.194 32,16.524 L32,4 C32,1.79 30.21,0 28,0 L4,0 C1.79,0 0,1.79 0,4 L0,36 C0,38.21 1.79,40 4,40 L14.158,40 C13.44,38.762 12.89,37.42 12.524,36 Z M4,4 L28,4 L28,12 L4,12 L4,4 Z" id="Shape" fill="#162751" fill-rule="nonzero"></path>
+                    <path d="M12,32 C12,23.164 19.164,16 28,16 C28.678,16 29.344,16.056 30,16.138 L30,2 L2,2 L2,38 L13.174,38 C12.422,36.146 12,34.124 12,32 Z" id="Path" fill="#162751" fill-rule="nonzero" opacity="0.2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

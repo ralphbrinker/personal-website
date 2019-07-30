@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>growth</title>
+    <desc>Created with Sketch.</desc>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="large" transform="translate(-142.000000, -3001.000000)" fill="#162751" fill-rule="nonzero">
+            <g id="growth" transform="translate(70.000000, 2929.000000)">
+                <g transform="translate(72.000000, 72.000000)" id="Path">
+                    <polygon opacity="0.2" points="2 16 2 34 34 34 34 12 26 20 18 12 8 22"></polygon>
+                    <polygon points="8.4 20 0.4 11.8 3.2 9 8.4 14.2 18.8 4 26 11.4 36 1.4 36 16 32 16 32 11 26 17 18.8 9.8"></polygon>
+                    <polygon points="8.2 24.2 1 17 1 9.8 8 16.8 18.2 6.6 25.8 14.2 31.4 8.6 35.4 12.6 26 22 18.2 14"></polygon>
+                    <path d="M36,36 L4,36 C1.8,36 0,34.2 0,32 L0,0 L4,0 L4,32 L32,32 L32,11.2 L36,11.2 L36,36 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

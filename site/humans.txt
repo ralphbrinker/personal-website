@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Ralph Brinker -- Dev Team -- @Ralph Brinker
+
+# THANKS
+
+    Ralph Brinker Team
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5 and JavaScript

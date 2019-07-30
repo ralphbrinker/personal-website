@@ -1,0 +1,14 @@
+.panel {
+    padding: 35px 29px 15px;
+
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.10);
+}
+
+.panel--secondary {
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #41908c;
+    box-shadow: none;
+}

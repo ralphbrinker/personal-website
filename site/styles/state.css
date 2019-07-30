@@ -1,0 +1,77 @@
+/* States */
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.opaque {
+    pointer-events: auto;
+
+    opacity: 1;
+
+    will-change: opacity;
+}
+
+.transparent {
+    pointer-events: none;
+
+    opacity: 0;
+
+    will-change: opacity;
+}
+
+.on {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+
+    will-change: transform;
+}
+
+.off {
+    -webkit-transform: translate3d(-9999px, 0, 0);
+            transform: translate3d(-9999px, 0, 0);
+
+    will-change: transform;
+}
+
+.text--lean {
+    line-height: 1;
+
+    margin-bottom: 0;
+}
+
+.text--tight {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text--uppercase {
+    text-transform: uppercase;
+}
+
+.text--right {
+    text-align: right;
+}
+
+.text--left {
+    text-align: left;
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text--success {
+    color: #54b3a9;
+}
+
+.text--error {
+    color: #d54d4d;
+}
+
+/* Transitions */
+
+/* Animations */

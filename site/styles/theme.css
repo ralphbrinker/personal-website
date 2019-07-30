@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "metropolis-light-italic";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../assets/fonts/metropolis-light-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "metropolis-regular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../assets/fonts/metropolis-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "spartanmb-bold";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../assets/fonts/spartanmb-bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "spartanmb-regular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../assets/fonts/spartanmb-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "roboto-regular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../assets/fonts/roboto-regular.woff2") format("woff2");
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: "metropolis-regular";
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #162751;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    font-family: "gilroy-extrabold";
+    font-size: 48px;
+    line-height: 1.2;
+
+    margin-bottom: 10px;
+
+    color: inherit;
+}
+
+h2 {
+    font-family: "gilroy-extrabold";
+    font-size: 32px;
+    line-height: 1.2;
+
+    margin-bottom: 10px;
+
+    color: inherit;
+}
+
+h3 {
+    font-family: "gilroy-extrabold";
+    font-size: 20px;
+    line-height: 1.2;
+
+    margin-bottom: 10px;
+
+    color: inherit;
+}
+
+h4 {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: inherit;
+}
+
+h5 {
+    font-family: "metropolis-bold";
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: inherit;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+a {
+    font-size: inherit;
+    line-height: inherit;
+
+    color: inherit;
+}
+
+b,
+strong {
+    font-family: "metropolis-bold";
+}
+
+small {
+    font-size: 12px;
+    line-height: inherit;
+}
+
+/* Media queries */
+
+/* Medium */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Small */
+@media (max-width: 425px) {
+}

@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "ralph-brinker-site"
+    "default": "rafael-brinker-project"
+  },
+  "targets": {
+    "rafael-brinker-project": {
+      "hosting": {
+        "site": [
+          "rafael-brinker-project"
+        ]
+      }
+    }
   }
 }
