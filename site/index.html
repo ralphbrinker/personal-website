@@ -21,21 +21,21 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <header class="box flex between middle-sm header">
+    <header class="box flex end middle-sm header">
         <input id="nav-trigger" class="hidden" name="nav-trigger" type="checkbox">
         <label class="header__nav-trigger" for="nav-trigger"></label>
         <nav class="flex middle top-md column-sm between header__nav">
-            <a href="#services" class="js-scroll">Services</a>
-            <a href="#projects" class="js-scroll">Projects</a>
-            <a href="/blog" class="js-scroll">Blog</a>
-            <a href="#contact" class="js-scroll">Contact</a>
+            <a href="#services" class="header__link js-scroll">Services</a>
+            <a href="#projects" class="header__link js-scroll">Projects</a>
+            <a href="/blog" class="header__link js-scroll">Blog</a>
+            <a href="#contact" class="header__link js-scroll">Contact</a>
         </nav>
     </header>
 
     <section class="box flex hero">
         <hgroup class="flex-3 flex-6-sm">
-            <h1 class="hero__logo">Ralph<strong>Brinker</strong></h1>
-            <h3>Customer-Centric Product Development</h3>
+            <h1 class="hero__logo">Ralph <strong>Brinker</strong></h1>
+            <h2>Customer-Centric Product Development</h2>
             <h4>I help companies develop products that people love and buy</h4>
         </hgroup>
         <figure class="flex-3 flex-6-sm hero__figure">
@@ -44,7 +44,7 @@
     </section>
 
     <main class="box help">
-        <h2>A solid foundation to decide what to build</h2>
+        <h1>A solid foundation to decide what to build</h1>
         <ul>
             <li>
                 <p><b>Reducing churn rates</b> could mean the difference between failure and success. A lot of the growth in a business in dependent on retaining customers. A suberb experience is a key component of how you keep people onboard.</p>
@@ -59,7 +59,7 @@
     </main>
 
     <section class="box flex flex-row services" name="services">
-        <h2 class="flex-2">A solid foundation to decide what to build</h2>
+        <h1 class="flex-2">A solid foundation to decide what to build</h1>
         <ul class="flex-3 grid row-3 gap-20">
             <li>User research</li>
             <li>Usability testing</li>
@@ -73,16 +73,28 @@
     </section>
 
     <section class="box how">
-        <h2>How it looks</h2>
+        <h1>How it looks</h1>
         <ul class="grid row-3 gap-20">
-           <li></li>
-           <li></li>
-           <li></li>
+           <li>
+               <figure class="">
+                   <img src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
+               </figure>
+           </li>
+           <li>
+               <figure class="">
+                   <img src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
+               </figure>
+           </li>
+           <li>
+               <figure class="">
+                   <img src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
+               </figure>
+           </li>
        </ul>
     </section>
 
     <article class="box how">
-        <h2>How it impacts</h2>
+        <h1>How it impacts</h1>
         <ul class="grid row-3 gap-20">
            <li class="flex">
                <figure class="flex-1">
@@ -115,50 +127,82 @@
     </article>
 
     <footer class="footer">
-        <section>
-            <h3 class="box footer__title opaque js-title">Tell me about what you need to achieve</h3>
+        <div class="box">
+            <section>
+                <h3 class="footer__title opaque js-title">Tell me about what you need to achieve</h3>
 
-            <!-- Messages -->
-            <aside class="box hidden js-thanks">
-                <h5 class="text--success">Thank you for reaching out to us</h5>
-                <p>We will get back to you shortly</p>
-            </aside>
+                <!-- Messages -->
+                <aside class="box hidden js-thanks">
+                    <h5 class="text--success">Thank you for reaching out to us</h5>
+                    <p>We will get back to you shortly</p>
+                </aside>
 
-            <aside class="box hidden js-error">
-                <h5 class="text--error">Sorry, but something went wrong</h5>
-                <p>Please, try to send your message again</p>
-            </aside>
+                <aside class="box hidden js-error">
+                    <h5 class="text--error">Sorry, but something went wrong</h5>
+                    <p>Please, try to send your message again</p>
+                </aside>
 
-            <form class="box footer__contact opaque js-form" name="contact">
-                <fieldset class="flex-2 flex-6-sm">
-                    <label for="name">Name*</label>
-                    <input id="name" type="text" name="name" maxlength="50" autocomplete="name" required />
-
-                    <label for="email">Email*</label>
-                    <input id="email" type="email" name="email" maxlength="50" autocomplete="email" required />
-
-                    <label for="phone">Phone</label>
-                    <input id="phone" type="tel" name="phone" autocomplete="phone" />
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" maxlength="144"></textarea>
-
-                    <small class="text--uppercase">*Required fields</small>
+                <form class="box footer__contact opaque js-form" name="contact">
+                    <div class="flex">
+                        <label class="flex-3" for="name">Name*</label>
+                        <input id="name" class="flex-3" type="text" name="name" maxlength="50" autocomplete="name" required />
+                    </div>
+                    <div class="flex">
+                        <label class="flex-3" for="company">Company*</label>
+                        <input id="company" class="flex-3" type="text" name="company" maxlength="50" autocomplete="company" required />
+                    </div>
+                    <div class="flex">
+                        <label class="flex-3" for="email">Email*</label>
+                        <input id="email" class="flex-3" type="email" name="email" maxlength="50" autocomplete="email" required />
+                    </div>
+                    <div class="flex">
+                        <label class="flex-3" for="phone">Phone</label>
+                        <input id="phone" class="flex-3" type="tel" name="phone" autocomplete="phone" />
+                    </div>
+                    <div class="flex">
+                        <label class="flex-3" for="message">Message</label>
+                        <textarea id="message" class="flex-3" name="message" rows="4" maxlength="144"></textarea>
+                    </div>
 
                     <div class="g-recaptcha footer__contact-recaptcha" data-sitekey="6LdCtq0UAAAAAK3EfLszD2Cwd3qSEqnHRB3A22vk"></div>
 
-                    <button class="button button--block footer__contact-button js-send" name="button" type="submit">Send message</button>
-                </fieldset>
-            </form>
+                    <div class="flex">
+                        <div class="flex-3">
+                            <small>*Required fields</small>
+                        </div>
+                        <div class="flex-3">
+                            <button class="button button--block footer__contact-button js-send" name="button" type="submit">Send message</button>
+                        </div>
+                    </div>
+                </form>
 
-            <address class="box flex h-card footer__address">
-                <span class="p-company">Ralph Brinker</span><i class="footer__address-bullet">•</i>
-                <span class="p-locality">Orlando, FL, USA<i class="footer__address-bullet">•</i>Lisbon, Portugal</span>
-            </address>
-        </section>
-        <article>
-
-        </article>
+                <address class="box flex h-card footer__address">
+                    <span class="p-company">Ralph Brinker</span><i class="footer__address-bullet">•</i>
+                    <span class="p-locality">Lisbon, Portugal</span><i class="footer__address-bullet">•</i>
+                    <span class="p-tel">+351 918 956 980</span>
+                </address>
+            </section>
+            <article>
+                <h1>Blog</h1>
+                <ul>
+                    <li>
+                        <h3><a href="#">XXXXXXX</a></h3>
+                        <time datetime="2019-07-18">July 18, 2019</time>
+                    </li>
+                    <li>
+                        <h3><a href="#">XXXXXXX</a></h3>
+                        <time datetime="2019-07-18">July 18, 2019</time>
+                    </li>
+                    <li>
+                        <h3><a href="#">XXXXXXX</a></h3>
+                        <time datetime="2019-07-18">July 18, 2019</time>
+                    </li>
+                    <li>
+                        <h3><a href="/blog">All posts</a></h3>
+                    </li>
+                </ul>
+            </article>
+        </div>
     </footer>
 
     <!-- Plugins -->

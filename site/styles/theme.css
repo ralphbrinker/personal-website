@@ -30,14 +30,6 @@
     src: url("../assets/fonts/spartanmb-regular.woff2") format("woff2");
 }
 
-@font-face {
-    font-family: "roboto-regular";
-    font-weight: normal;
-    font-style: normal;
-
-    src: url("../assets/fonts/roboto-regular.woff2") format("woff2");
-}
-
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -45,56 +37,50 @@ html {
 }
 
 body {
-    font-family: "metropolis-regular";
+    font-family: "spartanmb-regular";
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.75;
 
-    color: #162751;
-    background-color: #f7f7f7;
+    color: #3b3d3e;
+    background-color: #ffffff;
 }
 
 h1 {
-    font-family: "gilroy-extrabold";
+    font-family: "metropolis-regular";
     font-size: 48px;
     line-height: 1.2;
 
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 
     color: inherit;
 }
 
 h2 {
-    font-family: "gilroy-extrabold";
-    font-size: 32px;
-    line-height: 1.2;
+    font-family: "spartanmb-bold";
+    font-size: 24px;
+    line-height: 1.4;
 
-    margin-bottom: 10px;
+    margin-bottom: 26px;
 
-    color: inherit;
+    color: #909fa4;
 }
 
 h3 {
-    font-family: "gilroy-extrabold";
-    font-size: 20px;
-    line-height: 1.2;
+    font-family: "spartanmb-bold";
+    font-size: 24px;
+    line-height: 1.4;
 
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 
     color: inherit;
 }
 
 h4 {
-    font-family: inherit;
-    font-size: 20px;
-    line-height: 1.5;
-
-    color: inherit;
-}
-
-h5 {
-    font-family: "metropolis-bold";
+    font-family: "spartanmb-regular";
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.7;
+
+    margin-bottom: 20px;
 
     color: inherit;
 }
@@ -113,7 +99,7 @@ a {
 
 b,
 strong {
-    font-family: "metropolis-bold";
+    font-family: "spartanmb-bold";
 }
 
 small {
