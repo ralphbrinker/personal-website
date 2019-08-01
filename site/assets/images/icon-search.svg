@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="90.7182115%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#E94E6C" offset="0%"></stop>
+            <stop stop-color="#EC6833" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="s4-home" transform="translate(-831.000000, -2363.000000)" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="look" transform="translate(680.000000, 2016.000000)">
+                <g id="look1" transform="translate(0.000000, 196.000000)">
+                    <path d="M179.313708,179.313708 L188,188 L179.313708,179.313708 C176.418278,182.209139 172.418278,184 168,184 C159.163444,184 152,176.836556 152,168 C152,159.163444 159.163444,152 168,152 C176.836556,152 184,159.163444 184,168 C184,172.418278 182.209139,176.418278 179.313708,179.313708 Z" id="search"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

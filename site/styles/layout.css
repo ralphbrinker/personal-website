@@ -1,5 +1,5 @@
 .box {
-    max-width: 1180px;
+    max-width: 1340px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 80px;
@@ -37,6 +37,10 @@
 
 .gap-30 {
     grid-gap: 30px;
+}
+
+.gap-60 {
+    grid-gap: 60px;
 }
 
 /* Flex system */

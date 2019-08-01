@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="65px" viewBox="0 0 70 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>onboarding</title>
+    <desc>Created with Sketch.</desc>
+    <g id="screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="s4-home" transform="translate(-1319.000000, -1484.000000)" stroke="#3B3D3E">
+            <g id="help" transform="translate(680.000000, 760.000000)">
+                <g id="how3" transform="translate(0.000000, 668.000000)">
+                    <g id="onboarding" transform="translate(640.000000, 57.000000)">
+                        <path d="M28.984,18.774 L28.984,16.018" id="Path" stroke-width="2"></path>
+                        <path d="M37.984,34.192 L37.984,58.668 C37.984,61.042 36.042,62.984 33.668,62.984 L33.3,62.984 C30.926,62.984 28.984,61.042 28.984,58.668 L28.984,34.152" id="Path" stroke-width="2"></path>
+                        <path d="M37.984,15.984 L37.984,18.984" id="Path" stroke-width="2"></path>
+                        <path d="M60.784,15.984 L25.138,15.984 C21.347,15.984 18.246,12.609 18.246,8.484 L18.246,8.484 C18.246,4.359 21.347,0.984 25.138,0.984 L60.783,0.984 L67.675,8.484 L67.675,8.484 L60.784,15.984 Z" id="Path" stroke-width="2"></path>
+                        <circle id="Oval" cx="33.984" cy="8.984" r="1.5"></circle>
+                        <path d="M7.216,18.984 L42.861,18.984 C46.652,18.984 49.753,22.359 49.753,26.484 L49.753,26.484 C49.753,30.609 46.652,33.984 42.861,33.984 L7.216,33.984 L0.324,26.484 L0.324,26.484 L7.216,18.984 Z" id="Path" stroke-width="2"></path>
+                        <circle id="Oval" cx="33.984" cy="25.984" r="1.5"></circle>
+                        <path d="M57.484,4.484 L59.484,4.473" id="Path"></path>
+                        <path d="M55.484,4.484 L55.484,4.48" id="Path"></path>
+                        <path d="M41.484,4.484 L53.484,4.4" id="Path"></path>
+                        <path d="M57.484,4.484 L59.484,4.473" id="Path"></path>
+                        <path d="M55.484,4.484 L55.484,4.48" id="Path"></path>
+                        <path d="M41.484,4.484 L53.484,4.4" id="Path"></path>
+                        <path d="M12.484,21.484 L18.484,21.445" id="Path"></path>
+                        <path d="M9.484,21.484 L10.484,21.476" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
