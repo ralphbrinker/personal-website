@@ -1,14 +1,15 @@
 label,
 .label {
     font-family: inherit;
-    font-size: inherit;
+    font-size: 12px;
+    text-transform: uppercase;
 
     color: inherit;
 }
 
 .legend,
 legend {
-    font-family: "gilroy-extrabold";
+    font-family: inherit;
     font-size: 32px;
     line-height: 1.2;
 
@@ -20,7 +21,7 @@ legend {
 input,
 select,
 textarea {
-    font-family: "metropolis-regular";
+    font-family: "spartanmb-regular";
     font-size: inherit;
 
     display: block;

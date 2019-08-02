@@ -32,6 +32,20 @@ button[class^="icon-"] {
     background-image: url("/assets/images/icon-costs.svg");
 }
 
+.icon-triangle {
+    width: 10px;
+    height: 10px;
+
+    background-image: url("/assets/images/icon-triangle.svg");
+}
+
+.icon-search {
+    width: 36px;
+    height: 36px;
+
+    background-image: url("/assets/images/icon-search.svg");
+}
+
 /* Arrows */
 i[class^="arrow-"],
 a[class^="arrow-"],

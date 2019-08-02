@@ -66,7 +66,7 @@
 
     cursor: pointer;
 
-    background: linear-gradient(to bottom, transparent, transparent 72%, #2e3445 32%, #2e3445);
+    background-image: linear-gradient(to bottom, transparent, transparent 72%, #2e3445 32%, #2e3445);
     background-size: 100% 14px;
 }
 
@@ -124,8 +124,8 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 }
 
 .help__item {
-    background: #FFFFFF;
-    box-shadow: 8px 16px 32px 0 rgba(0, 0, 0, 0.10);
+    background-color: #FFFFFF;
+    box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.10);
     border-radius: 0 12px 0 12px;
     padding: 30px 40px 14px;
     position: relative;
@@ -166,9 +166,90 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 }
 
 .services {
-
+    margin-bottom: 90px;
 }
 
+.services__list {
+    white-space: nowrap;
+}
+
+.looks {
+    margin-bottom: 100px;
+}
+
+.looks__item {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.10);
+    height: 340px;
+    cursor: pointer;
+}
+
+.looks__figure {
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+}
+
+.looks__search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.4s ease;
+
+    transform: translate(-50%, -50%);
+
+    will-change: transform;
+    z-index: 1;
+}
+
+.looks__item:hover .looks__search {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.looks__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: opacity(0.1);
+    transition: all 1s ease;
+
+    will-change: transform;
+}
+
+.looks__item:hover .looks__image {
+    transform: scale(1.4);
+    filter: opacity(0.4);
+}
+
+.impacts {
+    margin-bottom: 100px;
+}
+
+.footer {
+    padding-top: 50px;
+    background-image: linear-gradient(90deg, #EFF3F4 50%, #FFFFFF 50%);
+}
+
+.footer__blog {
+    position: relative;
+    padding-left: 40px;
+    z-index: 1;
+}
+
+.footer__blog::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 120%;
+    background-color: #FFFFFF;
+    box-shadow: 8px 16px 32px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 12px 0 0 0;
+    z-index: -1;
+}
 
 /* Media queries */
 
