@@ -76,7 +76,7 @@
         </article>
     </section>
 
-    <section class="box looks">
+    <section class="box looks" name="projects">
         <hr>
         <h1>How it looks</h1>
         <ul class="grid row-3 gap-20">
@@ -101,35 +101,35 @@
        </ul>
     </section>
 
-    <article class="box impacts" name="projects">
+    <article class="box impacts">
         <hr>
         <h1>How it impacts</h1>
-        <ul class="grid row-3 gap-20">
-           <li class="flex">
-               <figure class="flex-1">
-                   <img src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
+        <ul class="grid column-3 gap-20">
+           <li class="flex middle impacts__item">
+               <figure class="flex-1 impacts__figure">
+                   <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
                 <blockquote class="flex-3">
-                    <p>“We can see exactly what needs to be done and when. We're much more efficient.”</p>
-                    <footer>-Tina Lannin, 121 Captions</footer>
+                    <p class="impacts__quote">“We can see exactly what needs to be done and when. We're much more efficient.”</p>
+                    <footer><small>-Tina Lannin, 121 Captions</small></footer>
                 </blockquote>
            </li>
-           <li class="flex">
-               <figure class="flex-1">
-                   <img src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
+           <li class="flex middle impacts__item">
+               <figure class="flex-1 impacts__figure">
+                   <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
                 <blockquote class="flex-3">
-                    <p>“Accountability for tasks. No more ‘I thought so and so was responsible for that.”</p>
-                    <footer>-George Groves, Piehole</footer>
+                    <p class="impacts__quote">“Accountability for tasks. No more ‘I thought so and so was responsible for that.”</p>
+                    <footer><small>-George Groves, Piehole</small></footer>
                 </blockquote>
            </li>
-           <li class="flex">
-               <figure class="flex-1">
-                   <img src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
+           <li class="flex middle impacts__item">
+               <figure class="flex-1 impacts__figure">
+                   <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
                 <blockquote class="flex-3">
-                    <p>“We don't need to spend as much time in meetings now that we use Basecamp.”</p>
-                    <footer>-Brad Vandiviere, Faith Chapel Billings</footer>
+                    <p class="impacts__quote">“We don't need to spend as much time in meetings now that we use Basecamp.”</p>
+                    <footer><small>-Brad Vandiviere, Faith Chapel Billings</small></footer>
                 </blockquote>
            </li>
        </ul>
@@ -138,7 +138,7 @@
     <footer class="footer">
         <div class="box flex">
             <section class="flex-3">
-                <h3 class="footer__title opaque js-title">Tell me about what you need to achieve</h3>
+                <h3 class="js-title">Tell me about what you need to achieve</h3>
 
                 <!-- Messages -->
                 <aside class="box hidden js-thanks">
@@ -151,43 +151,41 @@
                     <p>Please, try to send your message again</p>
                 </aside>
 
-                <form class="box footer__contact opaque js-form" name="contact">
+                <form class="footer__contact opaque js-form" name="contact">
                     <div class="flex">
-                        <label class="flex-3" for="name">Name*</label>
+                        <label class="flex-2" for="name">Name*</label>
                         <input id="name" class="flex-3" type="text" name="name" maxlength="50" autocomplete="name" required />
                     </div>
                     <div class="flex">
-                        <label class="flex-3" for="company">Company*</label>
+                        <label class="flex-2" for="company">Company*</label>
                         <input id="company" class="flex-3" type="text" name="company" maxlength="50" autocomplete="company" required />
                     </div>
                     <div class="flex">
-                        <label class="flex-3" for="email">Email*</label>
+                        <label class="flex-2" for="email">Email*</label>
                         <input id="email" class="flex-3" type="email" name="email" maxlength="50" autocomplete="email" required />
                     </div>
                     <div class="flex">
-                        <label class="flex-3" for="phone">Phone</label>
+                        <label class="flex-2" for="phone">Phone</label>
                         <input id="phone" class="flex-3" type="tel" name="phone" autocomplete="phone" />
                     </div>
                     <div class="flex">
-                        <label class="flex-3" for="message">Message</label>
+                        <label class="flex-2" for="message">Message</label>
                         <textarea id="message" class="flex-3" name="message" rows="4" maxlength="144"></textarea>
                     </div>
 
-                    <div class="g-recaptcha footer__contact-recaptcha" data-sitekey="6LdCtq0UAAAAAK3EfLszD2Cwd3qSEqnHRB3A22vk"></div>
-
-                    <div class="flex">
-                        <div class="flex-3">
-                            <small>*Required fields</small>
-                        </div>
-                        <div class="flex-3">
-                            <button class="button button--block footer__contact-button js-send" name="button" type="submit">Send message</button>
-                        </div>
+                    <div class="flex end">
+                        <div class="flex-4 g-recaptcha footer__contact-recaptcha" data-sitekey="6LdCtq0UAAAAAK3EfLszD2Cwd3qSEqnHRB3A22vk"></div>
                     </div>
+
+                    <footer class="flex">
+                        <small class="flex-2"><b>*required fields</b></small>
+                        <button class="button js-send" name="button" type="submit">Send</button>
+                    </footer>
                 </form>
 
-                <address class="box flex h-card footer__address">
-                    <span class="p-company">Ralph Brinker</span><i class="footer__address-bullet">•</i>
-                    <span class="p-locality">Lisbon, Portugal</span><i class="footer__address-bullet">•</i>
+                <address class="h-card footer__address">
+                    <span class="p-company">Ralph Brinker</span>&nbsp;&nbsp;<i class="icon-triangle"></i>&nbsp;&nbsp;
+                    <span class="p-locality">Lisbon, Portugal</span>&nbsp;&nbsp;<i class="icon-triangle"></i>&nbsp;&nbsp;
                     <span class="p-tel">+351 918 956 980</span>
                 </address>
             </section>
@@ -195,19 +193,19 @@
                 <h1>Blog</h1>
                 <ul>
                     <li>
-                        <h3><a href="#">XXXXXXX</a></h3>
-                        <time datetime="2019-07-18">July 18, 2019</time>
+                        <h3 class="footer__post"><a href="#">Inside a Design System</a></h3><br>
+                        <time class="footer__date" datetime="2019-07-18">July 18, 2019</time>
                     </li>
                     <li>
-                        <h3><a href="#">XXXXXXX</a></h3>
-                        <time datetime="2019-07-18">July 18, 2019</time>
+                        <h3 class="footer__post"><a href="#">Lean, Agile, & Design Thinking</a></h3><br>
+                        <time class="footer__date" datetime="2019-07-18">July 10, 2019</time>
                     </li>
                     <li>
-                        <h3><a href="#">XXXXXXX</a></h3>
-                        <time datetime="2019-07-18">July 18, 2019</time>
+                        <h3 class="footer__post"><a href="#">The Aha Moment</a></h3><br>
+                        <time class="footer__date" datetime="2019-07-18">July 2, 2019</time>
                     </li>
                     <li>
-                        <h3><a href="/blog">All posts</a></h3>
+                        <h3 class="footer__post"><a href="/blog">All posts</a></h3>
                     </li>
                 </ul>
             </article>
