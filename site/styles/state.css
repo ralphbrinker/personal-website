@@ -75,3 +75,13 @@
 /* Transitions */
 
 /* Animations */
+
+
+/* Media queries */
+
+/* Medium */
+@media (max-width: 768px) {
+    .visible-md {
+        display: block;
+    }
+}

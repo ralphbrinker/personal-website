@@ -21,7 +21,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <header class="box flex end middle-sm header">
+    <header class="box flex end header">
         <input id="nav-trigger" class="hidden" name="nav-trigger" type="checkbox">
         <label class="header__nav-trigger" for="nav-trigger"></label>
         <nav class="flex middle top-md column-sm between header__nav">
@@ -32,13 +32,13 @@
         </nav>
     </header>
 
-    <section class="box flex hero">
-        <hgroup class="flex column center text--left flex-3 flex-6-sm">
+    <section class="box flex flex-row hero">
+        <hgroup class="flex flex-3 column center start-md text--left">
             <h1 class="hero__title">Ralph<strong>Brinker</strong></h1>
             <h2>Customer-Centric Product Development</h2>
             <h4>I help companies develop products that people love and buy</h4>
         </hgroup>
-        <figure class="flex-3 flex-6-sm">
+        <figure class="flex-3">
             <img class="hero__image" src="assets/images/ralph-brinker.jpg" srcset="assets/images/ralph-brinker@2x.jpg 2x" alt="Ralph Brinker" />
         </figure>
     </section>
@@ -47,13 +47,13 @@
         <hr>
         <h1>How I can help you</h1>
         <ul class="grid column-3 gap-60">
-            <li class="flex-3 help__item help__item--churn">
+            <li class="flex-3 flex-5-md help__item help__item--churn">
                 <p><b>Reducing churn rates</b> could mean the difference between failure and success. A lot of the growth in a business in dependent on retaining customers. A suberb experience is a key component of how you keep people onboard.</p>
             </li>
-            <li class="flex-3 help__item help__item--mental">
+            <li class="flex-3 flex-5-md help__item help__item--mental">
                 <p>A customer values and chooses a product based on its benefit higher than its function. <b>The way your product present itself and function</b> must match the way people think about their problems, challenges and goals.</p>
             </li>
-            <li class="flex-3 help__item help__item--onboarding">
+            <li class="flex-3 flex-5-md help__item help__item--onboarding">
                 <p>Investing in the <b>first experience people have with your product</b> could lead to a considerable increase in adoption. It is crucial for people to feel comfortable and to comprehend the product they are interacting with from day one.</p>
             </li>
         </ul>
@@ -61,9 +61,9 @@
 
     <section class="box services" name="services">
         <hr>
-        <article class="flex flex-row">
-            <h1 class="flex-2">Services</h1>
-            <ul class="flex-3 grid row-3 gap-20 services__list">
+        <article class="flex">
+            <h1 class="flex-2 flex-6-md">Services</h1>
+            <ul class="flex-3 flex-6-md grid row-3 gap-20 services__list">
                 <li><i class="icon-triangle"></i> User research</li>
                 <li><i class="icon-triangle"></i> Usability testing</li>
                 <li><i class="icon-triangle"></i> Interface design</li>
@@ -79,7 +79,7 @@
     <section class="box looks" name="projects">
         <hr>
         <h1>How it looks</h1>
-        <ul class="grid row-3 gap-20">
+        <ul class="grid row-3 column-3-md gap-20">
             <li class="looks__item">
                 <figure class="looks__figure">
                     <i class="icon-search looks__search"></i>
@@ -105,29 +105,29 @@
         <hr>
         <h1>How it impacts</h1>
         <ul class="grid column-3 gap-20">
-           <li class="flex middle impacts__item">
-               <figure class="flex-1 impacts__figure">
+           <li class="flex flex-row middle impacts__item">
+               <figure class="flex-1 flex-2-md impacts__figure">
                    <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
-                <blockquote class="flex-3">
+                <blockquote class="flex-3 flex-4-md">
                     <p class="impacts__quote">“We can see exactly what needs to be done and when. We're much more efficient.”</p>
                     <footer><small>-Tina Lannin, 121 Captions</small></footer>
                 </blockquote>
            </li>
-           <li class="flex middle impacts__item">
-               <figure class="flex-1 impacts__figure">
+           <li class="flex flex-row middle impacts__item">
+               <figure class="flex-1 flex-2-md impacts__figure">
                    <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
-                <blockquote class="flex-3">
+                <blockquote class="flex-3 flex-4-md">
                     <p class="impacts__quote">“Accountability for tasks. No more ‘I thought so and so was responsible for that.”</p>
                     <footer><small>-George Groves, Piehole</small></footer>
                 </blockquote>
            </li>
-           <li class="flex middle impacts__item">
-               <figure class="flex-1 impacts__figure">
+           <li class="flex flex-row middle impacts__item">
+               <figure class="flex-1 flex-2-md impacts__figure">
                    <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
-                <blockquote class="flex-3">
+                <blockquote class="flex-3 flex-4-md">
                     <p class="impacts__quote">“We don't need to spend as much time in meetings now that we use Basecamp.”</p>
                     <footer><small>-Brad Vandiviere, Faith Chapel Billings</small></footer>
                 </blockquote>
@@ -137,7 +137,8 @@
 
     <footer class="footer">
         <div class="box flex">
-            <section class="flex-3">
+            <hr class="hidden first visible-md">
+            <section class="flex-3 flex-6-md">
                 <h3 class="js-title">Tell me about what you need to achieve</h3>
 
                 <!-- Messages -->
@@ -178,7 +179,7 @@
                     </div>
 
                     <footer class="flex">
-                        <small class="flex-2"><b>*required fields</b></small>
+                        <small class="flex-2 self-center-md"><b>*required fields</b></small>
                         <button class="button js-send" name="button" type="submit">Send</button>
                     </footer>
                 </form>
@@ -189,7 +190,7 @@
                     <span class="p-tel">+351 918 956 980</span>
                 </address>
             </section>
-            <article class="flex-3 footer__blog">
+            <article class="flex-3 flex-6-md first-md footer__blog">
                 <h1>Blog</h1>
                 <ul>
                     <li>

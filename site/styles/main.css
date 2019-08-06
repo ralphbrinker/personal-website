@@ -183,10 +183,6 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     margin-bottom: 90px;
 }
 
-.services__list {
-    white-space: nowrap;
-}
-
 .looks {
     margin-bottom: 100px;
 }
@@ -255,7 +251,6 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 .impacts__figure {
     position: relative;
 
-    margin-right: 20px;
     padding: 10px 0;
 
     border-right: 1px solid #dae2e5;
@@ -377,6 +372,43 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
 /* Medium */
 @media (max-width: 768px) {
+    .hero {
+        margin-top: 77px;
+    }
+
+    .hero__title {
+        white-space: nowrap;
+    }
+
+    .hero__image {
+        width: 100%;
+        height: 420px;
+        position: relative;
+        bottom: 0;
+        margin-top: 109px;
+    }
+
+    .help__item::after {
+        right: -20%;
+    }
+
+    .looks__item {
+        max-width: 340px;
+    }
+
+    .footer {
+        background-image: linear-gradient(0deg, #eff3f4 55%, #ffffff 45%);
+        padding-top: 0;
+    }
+
+    .footer__blog {
+        padding-left: 0;
+        margin-bottom: 100px;
+    }
+
+    .footer__blog::before {
+        display: none;
+    }
 }
 
 /* Small */

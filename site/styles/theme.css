@@ -60,6 +60,8 @@ h2 {
     font-size: 24px;
     line-height: 1.4;
 
+    max-width: 100%;
+
     margin-bottom: 26px;
 
     color: #909fa4;
@@ -70,6 +72,8 @@ h3 {
     font-size: 24px;
     line-height: 1.4;
 
+    max-width: 100%;
+
     margin-bottom: 30px;
 
     color: inherit;
@@ -79,6 +83,8 @@ h4 {
     font-family: "spartanmb-regular";
     font-size: 16px;
     line-height: 1.7;
+
+    max-width: 100%;
 
     margin-bottom: 20px;
 
@@ -120,27 +126,10 @@ hr {
 
 /* Medium */
 @media (max-width: 768px) {
-    h1 {
-        font-size: 32px;
-    }
 
-    h2 {
-        font-size: 24px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    h4 {
-        font-size: 16px;
-    }
-
-    p {
-        font-size: 14px;
-    }
 }
 
 /* Small */
 @media (max-width: 425px) {
+
 }

@@ -238,11 +238,6 @@
 
 /* Medium */
 @media (max-width: 768px) {
-    .box {
-        padding-right: 40px;
-        padding-left: 40px;
-    }
-
     /* Grid */
     .column-3-md {
         grid-template-columns: auto;
