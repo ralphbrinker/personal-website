@@ -397,10 +397,25 @@
 /* Small */
 @media (max-width: 425px) {
     .box {
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
+    /* Grid */
+    .gap-20-sm {
+        grid-gap: 20px;
+    }
+
+    .gap-40-sm {
+        grid-gap: 40px;
+    }
+
+    .column-8-sm {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    /* Flex */
     .flex-1-sm {
         max-width: 16.666666666666668%;
 

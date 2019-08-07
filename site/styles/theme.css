@@ -131,5 +131,25 @@ hr {
 
 /* Small */
 @media (max-width: 425px) {
+    h1 {
+        font-size: 36px;
+        margin-bottom: 48px;
+    }
 
+    h2 {
+        font-size: 18px;
+        margin-bottom: 42px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    hr {
+        margin: 0 0 50px 0;
+    }
 }
