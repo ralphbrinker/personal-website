@@ -189,6 +189,7 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
 .looks__item {
     height: 340px;
+    user-select: none;
 
     cursor: pointer;
 
@@ -467,10 +468,70 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     }
 
     .impacts {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+    }
+
+    .impacts__item {
+        position: relative;
+    }
+
+    .impacts__item:not(:last-child) {
+        margin-bottom: 13px;
     }
 
     .impacts__quote {
         font-size: 18px;
+    }
+
+    .impacts__figure {
+        border: 0;
+        padding-bottom: 20px;
+    }
+
+    .impacts__figure::after {
+        bottom: 0;
+        width: 108px;
+        height: 1px;
+        top: unset;
+        transform: none;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .impacts__item:last-child .impacts__figure::after {
+        display: none;
+    }
+
+    .impacts__image {
+        width: 59px;
+        height: 59px;
+    }
+
+    .impacts__footer {
+        position: absolute;
+        bottom: 37px;
+        left: 80px;
+    }
+
+    .footer {
+        background-image: linear-gradient(0deg, #eff3f4 61%, #ffffff 39%);
+    }
+
+    .footer__title {
+        font-size: 24px;
+    }
+
+    .footer__input {
+        max-width: 304px;
+        flex-basis: 304px;
+    }
+
+    .footer__button {
+        margin-top: 36px;
+    }
+
+    .footer__address {
+        font-size: 12px;
     }
 }

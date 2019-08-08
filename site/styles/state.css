@@ -85,3 +85,10 @@
         display: block;
     }
 }
+
+/* Small */
+@media (max-width: 425px) {
+    .hidden-sm {
+        display: none;
+    }
+}

@@ -83,19 +83,19 @@
             <li class="looks__item">
                 <figure class="looks__figure">
                     <i class="icon-search looks__search"></i>
-                    <img class="looks__image" src="assets/images/look-vrolio.jpg" alt="Vrolio" />
+                    <img class="looks__image" src="assets/images/look-vrolio.jpg" alt="Vrolio" draggable="false" />
                 </figure>
             </li>
             <li class="looks__item">
                 <figure class="looks__figure">
                     <i class="icon-search looks__search"></i>
-                    <img class="looks__image" src="assets/images/look-photoday.jpg" alt="Photoday" />
+                    <img class="looks__image" src="assets/images/look-photoday.jpg" alt="Photoday" draggable="false" />
                 </figure>
             </li>
             <li class="looks__item">
                 <figure class="looks__figure">
                     <i class="icon-search looks__search"></i>
-                    <img class="looks__image" src="assets/images/look-playlana.jpg" alt="Playlana" />
+                    <img class="looks__image" src="assets/images/look-playlana.jpg" alt="Playlana" draggable="false" />
                 </figure>
            </li>
        </ul>
@@ -106,30 +106,30 @@
         <h1>How it impacts</h1>
         <ul class="grid column-3 gap-20">
            <li class="flex flex-row middle impacts__item">
-               <figure class="flex-1 flex-2-md impacts__figure">
+               <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
                    <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
-                <blockquote class="flex-3 flex-4-md">
+                <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
                     <p class="impacts__quote">“We can see exactly what needs to be done and when. We're much more efficient.”</p>
-                    <footer><small>-Tina Lannin, 121 Captions</small></footer>
+                    <footer class="impacts__footer"><small>-Tina Lannin, 121 Captions</small></footer>
                 </blockquote>
            </li>
            <li class="flex flex-row middle impacts__item">
-               <figure class="flex-1 flex-2-md impacts__figure">
+               <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
                    <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
-                <blockquote class="flex-3 flex-4-md">
+                <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
                     <p class="impacts__quote">“Accountability for tasks. No more ‘I thought so and so was responsible for that.”</p>
-                    <footer><small>-George Groves, Piehole</small></footer>
+                    <footer class="impacts__footer"><small>-George Groves, Piehole</small></footer>
                 </blockquote>
            </li>
            <li class="flex flex-row middle impacts__item">
-               <figure class="flex-1 flex-2-md impacts__figure">
+               <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
                    <img class="impacts__image" src="assets/images/XXXX.jpg" srcset="assets/images/XXXX@2x.jpg 2x" alt="XXXXXX" />
                 </figure>
-                <blockquote class="flex-3 flex-4-md">
+                <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
                     <p class="impacts__quote">“We don't need to spend as much time in meetings now that we use Basecamp.”</p>
-                    <footer><small>-Brad Vandiviere, Faith Chapel Billings</small></footer>
+                    <footer class="impacts__footer"><small>-Brad Vandiviere, Faith Chapel Billings</small></footer>
                 </blockquote>
            </li>
        </ul>
@@ -139,7 +139,7 @@
         <div class="box flex">
             <hr class="hidden first visible-md">
             <section class="flex-3 flex-6-md">
-                <h3 class="js-title">Tell me about what you need to achieve</h3>
+                <h3 class="footer__title js-title">Tell me about what you need to achieve</h3>
 
                 <!-- Messages -->
                 <aside class="box hidden js-thanks">
@@ -154,33 +154,33 @@
 
                 <form class="footer__contact opaque js-form" name="contact">
                     <div class="flex">
-                        <label class="flex-2" for="name">Name*</label>
-                        <input id="name" class="flex-3" type="text" name="name" maxlength="50" autocomplete="name" required />
+                        <label class="flex-2 hidden-sm" for="name">Name*</label>
+                        <input id="name" class="flex-3 footer__input" type="text" name="name" maxlength="50" autocomplete="name" placeholder="Name*" required />
                     </div>
                     <div class="flex">
-                        <label class="flex-2" for="company">Company*</label>
-                        <input id="company" class="flex-3" type="text" name="company" maxlength="50" autocomplete="company" required />
+                        <label class="flex-2 hidden-sm" for="company">Company*</label>
+                        <input id="company" class="flex-3 footer__input" type="text" name="company" maxlength="50" autocomplete="company" placeholder="Company*" required />
                     </div>
                     <div class="flex">
-                        <label class="flex-2" for="email">Email*</label>
-                        <input id="email" class="flex-3" type="email" name="email" maxlength="50" autocomplete="email" required />
+                        <label class="flex-2 hidden-sm" for="email">Email*</label>
+                        <input id="email" class="flex-3 footer__input" type="email" name="email" maxlength="50" autocomplete="email" placeholder="Email*" required />
                     </div>
                     <div class="flex">
-                        <label class="flex-2" for="phone">Phone</label>
-                        <input id="phone" class="flex-3" type="tel" name="phone" autocomplete="phone" />
+                        <label class="flex-2 hidden-sm" for="phone">Phone</label>
+                        <input id="phone" class="flex-3 footer__input" type="tel" name="phone" autocomplete="phone" placeholder="Phone" />
                     </div>
                     <div class="flex">
-                        <label class="flex-2" for="message">Message</label>
-                        <textarea id="message" class="flex-3" name="message" rows="4" maxlength="144"></textarea>
+                        <label class="flex-2 hidden-sm" for="message">Message</label>
+                        <textarea id="message" class="flex-3 footer__input" name="message" rows="4" placeholder="Message" maxlength="144"></textarea>
                     </div>
 
-                    <div class="flex end">
-                        <div class="flex-4 g-recaptcha footer__contact-recaptcha" data-sitekey="6LdCtq0UAAAAAK3EfLszD2Cwd3qSEqnHRB3A22vk"></div>
+                    <div class="flex end start-sm">
+                        <div class="flex-4 flex-6-sm g-recaptcha footer__contact-recaptcha" data-sitekey="6LdCtq0UAAAAAK3EfLszD2Cwd3qSEqnHRB3A22vk"></div>
                     </div>
 
                     <footer class="flex">
-                        <small class="flex-2 self-center-md"><b>*required fields</b></small>
-                        <button class="button js-send" name="button" type="submit">Send</button>
+                        <small class="flex-2 flex-6-sm self-center-md"><b>*required fields</b></small>
+                        <button class="button footer__button js-send" name="button" type="submit">Send</button>
                     </footer>
                 </form>
 
