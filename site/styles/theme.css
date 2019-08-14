@@ -43,6 +43,7 @@ body {
 
     color: #3b3d3e;
     background-color: #ffffff;
+    height: 100vh;
 }
 
 h1 {
@@ -103,6 +104,53 @@ a {
     color: inherit;
 }
 
+.link {
+    font-family: "spartanmb-bold";
+
+    position: relative;
+    display: inline-flex;
+
+    transition: all 0.4s ease;
+    z-index: 1;
+
+    background-image: linear-gradient(to right, #e94e6c, #ec6833);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.link:hover,
+.link--active {
+    color: inherit;
+    background-image: linear-gradient(to right, #3b3d3e, #3b3d3e);
+}
+
+.link::before {
+    position: absolute;
+    z-index: -1;
+    bottom: 4px;
+    left: 0;
+
+    display: block;
+
+    width: 110%;
+    height: 1px;
+
+    content: "";
+    transition: all 0.4s ease;
+
+    background-color: #dae2e5;
+}
+
+.link:hover::before,
+.link--active::before {
+    bottom: 1px;
+
+    height: 3px;
+
+    background-image: linear-gradient(to right, #e94e6c, #ec6833);
+}
+
 b,
 strong {
     font-family: "spartanmb-bold";
@@ -151,5 +199,9 @@ hr {
 
     hr {
         margin: 0 0 50px 0;
+    }
+
+    .link {
+        font-size: 12px;
     }
 }

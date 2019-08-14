@@ -14,56 +14,11 @@
 .header {
     position: relative;
 
-    margin-top: 62px;
+    padding-top: 62px;
 }
 
 .header__nav {
     max-width: 436px;
-}
-
-.header__link {
-    font-family: "spartanmb-bold";
-
-    position: relative;
-
-    transition: all 0.4s ease;
-
-    background-image: linear-gradient(to right, #e94e6c, #ec6833);
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
-}
-
-.header__link:hover,
-.header__link--active {
-    color: inherit;
-    background-image: linear-gradient(to right, #3b3d3e, #3b3d3e);
-}
-
-.header__link::before {
-    position: absolute;
-    z-index: -1;
-    bottom: 4px;
-    left: 0;
-
-    display: block;
-
-    width: 110%;
-    height: 1px;
-
-    content: "";
-    transition: all 0.4s ease;
-
-    background-color: #dae2e5;
-}
-
-.header__link:hover::before,
-.header__link--active::before {
-    bottom: 1px;
-
-    height: 3px;
-
-    background-image: linear-gradient(to right, #e94e6c, #ec6833);
 }
 
 .header__nav-trigger {
@@ -304,12 +259,12 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 }
 
 .footer--blog {
-    background-color: #DAE2E5;
+    background-color: #EFF3F4;
 
     margin-top: 40px;
 
     padding-top: 69px;
-    padding-bottom: 27px;
+    overflow: hidden;
     background-image: none;
 }
 
@@ -407,6 +362,15 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     margin-top: 33px;
 }
 
+.post {
+    margin-top: 138px;
+    margin-bottom: 93px;
+}
+
+.post__header {
+    margin-bottom: 30px;
+}
+
 /* Media queries */
 
 /* Medium */
@@ -435,7 +399,7 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
         max-width: 340px;
     }
 
-    .footer {
+    .footer:not(.footer--blog) {
         background-image: linear-gradient(0deg, #eff3f4 55%, #ffffff 45%);
         padding-top: 0;
     }
@@ -458,10 +422,6 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
     .header__nav {
         max-width: 272px;
-    }
-
-    .header__link {
-        font-size: 12px;
     }
 
     .hero {
