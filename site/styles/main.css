@@ -146,9 +146,9 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
 .looks__item {
     height: 340px;
-    user-select: none;
 
     cursor: pointer;
+    user-select: none;
 
     border-radius: 4px;
     background-color: #ffffff;
@@ -259,12 +259,12 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 }
 
 .footer--blog {
-    background-color: #EFF3F4;
+    overflow: hidden;
 
     margin-top: 40px;
-
     padding-top: 69px;
-    overflow: hidden;
+
+    background-color: #eff3f4;
     background-image: none;
 }
 
@@ -342,14 +342,17 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 }
 
 .blog__post:not(:last-child) {
-    padding-bottom: 60px;
     margin-bottom: 90px;
-    border-bottom: 1px solid #DAE2E5;
+    padding-bottom: 60px;
+
+    border-bottom: 1px solid #dae2e5;
 }
 
 .blog__image {
-    width: 100%;
     display: flex;
+
+    width: 100%;
+
     object-fit: cover;
     object-position: center;
 }
@@ -363,6 +366,7 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 }
 
 .post {
+    min-height: calc(100% - 524px);
     margin-top: 138px;
     margin-bottom: 93px;
 }
@@ -384,10 +388,11 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     }
 
     .hero__image {
-        width: 100%;
-        height: 420px;
         position: relative;
         bottom: 0;
+
+        width: 100%;
+        height: 420px;
         margin-top: 109px;
     }
 
@@ -400,13 +405,14 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     }
 
     .footer:not(.footer--blog) {
-        background-image: linear-gradient(0deg, #eff3f4 55%, #ffffff 45%);
         padding-top: 0;
+
+        background-image: linear-gradient(0deg, #eff3f4 55%, #ffffff 45%);
     }
 
     .footer__blog {
-        padding-left: 0;
         margin-bottom: 100px;
+        padding-left: 0;
     }
 
     .footer__blog::before {
@@ -418,6 +424,7 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 @media (max-width: 425px) {
     .header {
         margin-top: 30px;
+        padding-top: 0;
     }
 
     .header__nav {
@@ -431,6 +438,7 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
     .hero__title {
         font-size: 48px;
+
         margin-bottom: 10px;
     }
 
@@ -444,17 +452,21 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     }
 
     .help__item {
-        box-shadow: none;
         padding: 0;
+
+        box-shadow: none;
     }
 
     .help__item::before {
         position: relative;
-        right: unset;
         top: unset;
-        transform: none;
+        right: unset;
+
         float: left;
+
         width: 118px;
+
+        transform: none;
     }
 
     .services {
@@ -482,19 +494,22 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     }
 
     .impacts__figure {
-        border: 0;
         padding-bottom: 20px;
+
+        border: 0;
     }
 
     .impacts__figure::after {
+        top: unset;
+        right: 0;
         bottom: 0;
+        left: 0;
+
         width: 108px;
         height: 1px;
-        top: unset;
-        transform: none;
-        left: 0;
-        right: 0;
         margin: 0 auto;
+
+        transform: none;
     }
 
     .impacts__item:last-child .impacts__figure::after {
@@ -522,6 +537,7 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
     .footer__input {
         max-width: 304px;
+
         flex-basis: 304px;
     }
 
@@ -531,5 +547,22 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
     .footer__address {
         font-size: 12px;
+    }
+
+    .blog {
+        margin-top: 60px;
+    }
+
+    .blog__post:not(:last-child) {
+        margin-bottom: 54px;
+        padding-bottom: 40px;
+    }
+
+    .footer--blog {
+        background-image: none;
+    }
+
+    .post {
+        margin-top: 60px;
     }
 }

@@ -17,14 +17,15 @@ const transporter = nodemailer.createTransport({
 
 exports.email = functions.https.onRequest((request, response) => {
     cors(request, response, () => {
-        const { name, email, phone, message } = request.body;
+        const { name, company, email, phone, message } = request.body;
 
         transporter.sendMail({
-            from: '"Ralph Brinker" <contact@Ralph Brinker.com>',
-            to: 'contact@Ralph Brinker.com',
+            from: '"Ralph Brinker" <contact@ralphbrinker.com>',
+            to: 'contact@ralphbrinker.com',
             subject: 'Contact us',
             html: `Contact from the website:</br></br>
                 Name: <em>${ name }</em></br></br>
+                Company: <em>${ company }</em></br></br>
                 Email: <em>${ email }</em></br></br>
                 Phone: <em>${ phone }</em></br></br>
                 Message: <em>${ message }`

@@ -59,7 +59,7 @@
             }
 
             form.classList.replace('opaque', 'transparent');
-            formTitle.classList.replace('opaque', 'transparent');
+            formTitle.classList.replace('visible', 'hidden');
             messageThanks.classList.replace('hidden', 'visible');
         } catch (error) {
             console.error(error);

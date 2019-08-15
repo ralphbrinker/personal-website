@@ -37,6 +37,11 @@
     will-change: transform;
 }
 
+.animate {
+    -webkit-animation: fadein 0.4s;
+            animation: fadein 0.4s;
+}
+
 .text--lean {
     line-height: 1;
 
@@ -75,6 +80,15 @@
 /* Transitions */
 
 /* Animations */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 
 /* Media queries */
