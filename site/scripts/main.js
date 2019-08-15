@@ -46,7 +46,7 @@
         });
 
         try {
-            const response = await fetch('https://us-central1-sevenwlite-project.cloudfunctions.net/email', {
+            const response = await fetch('https://us-central1-rafael-brinker-project.cloudfunctions.net/email', {
                 method: 'POST',
                 headers,
                 mode: 'cors',
