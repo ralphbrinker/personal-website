@@ -7,21 +7,18 @@
 
     display: inline-block;
 
+    min-width: 220px;
     margin: 0;
     padding: 24px 0;
-    min-width: 220px;
 
     cursor: pointer;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-
     transition: all 0.4s ease;
-
     -webkit-transform: scale(1);
             transform: scale(1);
-
     text-align: center;
     vertical-align: top;
     white-space: nowrap;
@@ -29,8 +26,9 @@
     text-overflow: ellipsis;
 
     color: #ffffff;
+    border: 1px solid #e94e6c;
     border-radius: 30px;
-    background-image: linear-gradient(90deg, #E94E6C 0%, #E94E6B 9%, #E95069 19%, #EA5166 28%, #EA5462 38%, #EA565D 48%, #EB5957 57%, #EB5C51 66%, #EB5E4B 74%, #EC6145 81%, #EC6340 87%, #EC653B 93%, #EC6737 97%, #EC6834 99%, #EC6833 100%);
+    background-image: linear-gradient(90deg, #e94e6c 0%, #e94e6b 9%, #e95069 19%, #ea5166 28%, #ea5462 38%, #ea565d 48%, #eb5957 57%, #eb5c51 66%, #eb5e4b 74%, #ec6145 81%, #ec6340 87%, #ec653b 93%, #ec6737 97%, #ec6834 99%, #ec6833 100%);
 
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -42,7 +40,9 @@
 }
 
 .button:hover {
-    background-color: #7242b9;
+    color: #eb5957;
+    background-color: #ffffff;
+    background-image: none;
 }
 
 .button--disable,

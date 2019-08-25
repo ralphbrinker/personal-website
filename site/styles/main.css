@@ -17,6 +17,20 @@
     padding-top: 62px;
 }
 
+.header__logo {
+    overflow: hidden;
+
+    max-width: 64px;
+    height: 64px;
+}
+
+.header__logo-image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
 .header__nav {
     max-width: 436px;
 }
@@ -81,15 +95,20 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     max-width: 400px;
     height: 560px;
 
-    object-fit: cover;
-
     border-top-left-radius: 36px;
     border-bottom-right-radius: 36px;
     background-color: #d8d8d8;
+
+    object-fit: cover;
 }
 
 .help {
     margin-bottom: 100px;
+
+    background-image: url("/assets/images/help-background.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
 }
 
 .help__item {
@@ -142,6 +161,17 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     margin-bottom: 90px;
 }
 
+.services__item {
+    display: inline-block;
+
+    padding-left: 20px;
+
+    background-image: url("/assets/images/icon-triangle.svg");
+    background-repeat: no-repeat;
+    background-position: top 9px left;
+    background-size: 10px 10px;
+}
+
 .looks {
     margin-bottom: 100px;
 }
@@ -151,7 +181,6 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
     cursor: pointer;
     user-select: none;
-
     transition: all 0.4s ease;
 
     border-radius: 4px;
@@ -204,13 +233,16 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
 
 .looks__item--lightbox .looks__figure {
     position: fixed;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    right: 0;
     z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 100vw;
+    height: 100vh;
+
     background-color: rgba(0, 0, 0, 0.79);
 }
 
@@ -218,11 +250,14 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+
     width: auto;
-    height: auto;
     max-width: 80%;
+    height: auto;
     max-height: 80%;
+
+    transform: translate(-50%, -50%);
+
     filter: none;
     object-fit: contain;
 }
@@ -365,6 +400,13 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     -webkit-text-fill-color: transparent;
 }
 
+/* Safari hack */
+_::-webkit-full-page-media,
+_:future,
+:root .footer__post {
+    -webkit-text-fill-color: #e94e6c;
+}
+
 .footer__post:hover {
     border-color: #c8d8dd;
 }
@@ -435,6 +477,10 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
         margin-top: 109px;
     }
 
+    .help {
+        background-size: cover;
+    }
+
     .help__item::before {
         right: -20%;
     }
@@ -464,6 +510,11 @@ input[name="nav-trigger"]:checked + .header__nav-trigger::after {
     .header {
         margin-top: 30px;
         padding-top: 0;
+    }
+
+    .header__logo {
+        max-width: 32px;
+        height: 32px;
     }
 
     .header__nav {

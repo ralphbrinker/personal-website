@@ -41,9 +41,10 @@ body {
     font-size: 16px;
     line-height: 1.75;
 
+    height: 100vh;
+
     color: #3b3d3e;
     background-color: #ffffff;
-    height: 100vh;
 }
 
 h1 {
@@ -62,7 +63,6 @@ h2 {
     line-height: 1.4;
 
     max-width: 100%;
-
     margin-bottom: 26px;
 
     color: #909fa4;
@@ -74,7 +74,6 @@ h3 {
     line-height: 1.4;
 
     max-width: 100%;
-
     margin-bottom: 30px;
 
     color: inherit;
@@ -86,7 +85,6 @@ h4 {
     line-height: 1.7;
 
     max-width: 100%;
-
     margin-bottom: 20px;
 
     color: inherit;
@@ -108,15 +106,23 @@ a {
     font-family: "spartanmb-bold";
 
     position: relative;
+    z-index: 1;
+
     display: inline-flex;
 
     transition: all 0.4s ease;
-    z-index: 1;
 
     background-image: linear-gradient(to right, #e94e6c, #ec6833);
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
+}
+
+/* Safari hack */
+_::-webkit-full-page-media,
+_:future,
+:root .link {
+    -webkit-text-fill-color: #e94e6c;
 }
 
 .link:hover,
@@ -163,29 +169,32 @@ small {
 
 hr {
     display: block;
+
     width: 40px;
     height: 3px;
-    background-image: linear-gradient(to right, #E94E6C, #EC6833);
-    border: 0;
     margin: 0 0 85px 0;
+
+    border: 0;
+    background-image: linear-gradient(to right, #e94e6c, #ec6833);
 }
 
 /* Media queries */
 
 /* Medium */
 @media (max-width: 768px) {
-
 }
 
 /* Small */
 @media (max-width: 425px) {
     h1 {
         font-size: 36px;
+
         margin-bottom: 48px;
     }
 
     h2 {
         font-size: 18px;
+
         margin-bottom: 42px;
     }
 

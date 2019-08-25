@@ -21,7 +21,13 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <header class="box flex end start-sm header">
+    <header class="box flex end between header">
+        <figure class="flex header__logo">
+            <a href="/">
+                <img class="header__logo-image" src="/assets/images/logo.png"  srcset="/assets/images/logo@2x.png 2x" alt="Ralph Brinker" />
+            </a>
+        </figure>
+
         <input id="nav-trigger" class="hidden" name="nav-trigger" type="checkbox">
         <label class="header__nav-trigger" for="nav-trigger"></label>
         <nav class="flex middle between header__nav">
@@ -67,15 +73,15 @@
         <hr>
         <article class="flex">
             <h1 class="flex-2 flex-6-md">Services</h1>
-            <ul class="flex-3 flex-6-md grid row-3 column-8-sm gap-20 services__list">
-                <li><i class="icon-triangle"></i> User research</li>
-                <li><i class="icon-triangle"></i> Usability testing</li>
-                <li><i class="icon-triangle"></i> Interface design</li>
-                <li><i class="icon-triangle"></i> Product strategy</li>
-                <li><i class="icon-triangle"></i> Heuristic evaluation</li>
-                <li><i class="icon-triangle"></i> Prototyping</li>
-                <li><i class="icon-triangle"></i> Service design</li>
-                <li><i class="icon-triangle"></i> Product/Market fit analysis</li>
+            <ul class="flex-3 flex-6-md grid row-3 column-8-sm gap-20">
+                <li class="services__item">User research</li>
+                <li class="services__item">Usability testing</li>
+                <li class="services__item">Interface design</li>
+                <li class="services__item">Product strategy</li>
+                <li class="services__item">Heuristic evaluation</li>
+                <li class="services__item">Prototyping</li>
+                <li class="services__item">Service design</li>
+                <li class="services__item">Product/Market fit analysis</li>
             </ul>
         </article>
     </section>

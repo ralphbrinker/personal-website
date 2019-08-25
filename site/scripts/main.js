@@ -1,4 +1,11 @@
 (function() {
+    // Onload scroll
+    if (window.location.hash) {
+        const target = window.location.hash.replace('#', '');
+
+        document.querySelector(`[name='${ target }']`).scrollIntoView({ behavior: 'smooth' });
+    }
+
     // Scroll to element
     document.querySelectorAll('.js-scroll').forEach((element) => {
         element.addEventListener('click', (event) => {

@@ -7,10 +7,10 @@
     <meta name="description" content="I develop digital products that people love and buy. Design is about customer and business goals + results. Improve adoption, increase revenue, reduce costs.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="apple-touch-icon" href="../assets/images/icon.png">
-    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/images/icon.png">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
 
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -21,14 +21,20 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <header class="box flex end start-sm header">
+    <header class="box flex end between header">
+        <figure class="flex header__logo">
+            <a href="/">
+                <img class="header__logo-image" src="/assets/images/logo.png"  srcset="/assets/images/logo@2x.png 2x" alt="Ralph Brinker" />
+            </a>
+        </figure>
+
         <input id="nav-trigger" class="hidden" name="nav-trigger" type="checkbox">
         <label class="header__nav-trigger" for="nav-trigger"></label>
         <nav class="flex middle between header__nav">
-            <a href="../#services" class="link">Services</a>
-            <a href="../#projects" class="link">Projects</a>
+            <a href="/#services" class="link">Services</a>
+            <a href="/#projects" class="link">Projects</a>
             <a href="/blog" class="link link--active">Blog</a>
-            <a href="../#contact" class="link">Contact</a>
+            <a href="/#contact" class="link">Contact</a>
         </nav>
     </header>
 
