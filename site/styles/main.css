@@ -8,6 +8,7 @@
 @import "ui/buttons.css";
 @import "ui/forms.css";
 @import "ui/images.css";
+@import "ui/lists.css";
 @import "ui/panels.css";
 
 /* Header */
@@ -419,6 +420,7 @@ _:future,
 
 /* Blog */
 .blog {
+    min-height: calc(100% - 533px);
     margin-top: 192px;
 }
 

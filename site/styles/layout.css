@@ -6,6 +6,10 @@
     padding-left: 80px;
 }
 
+.box--small {
+    max-width: 960px;
+}
+
 /* Grid system */
 .grid {
     display: grid;
