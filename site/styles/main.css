@@ -431,6 +431,13 @@ _:future,
     border-bottom: 1px solid #dae2e5;
 }
 
+.blog__figure {
+    display: block;
+
+    width: 100%;
+    margin-bottom: 25px;
+}
+
 .blog__image {
     display: flex;
 
@@ -438,6 +445,14 @@ _:future,
 
     object-fit: cover;
     object-position: center;
+}
+
+.blog__figcaption {
+    font-size: 14px;
+
+    margin-top: 15px;
+
+    color: #a2a3a3;
 }
 
 .blog__paragraph {

@@ -54,6 +54,9 @@ h1 {
 
     margin-bottom: 50px;
 
+    -webkit-user-select: text;
+            user-select: text;
+
     color: inherit;
 }
 
@@ -64,6 +67,9 @@ h2 {
 
     max-width: 100%;
     margin-bottom: 26px;
+
+    -webkit-user-select: text;
+            user-select: text;
 
     color: #909fa4;
 }
@@ -76,16 +82,40 @@ h3 {
     max-width: 100%;
     margin-bottom: 30px;
 
+    -webkit-user-select: text;
+            user-select: text;
+
     color: inherit;
 }
 
 h4 {
     font-family: "spartanmb-regular";
+    font-size: 24px;
+    line-height: 1.7;
+
+    max-width: 100%;
+    margin-bottom: 20px;
+
+    -webkit-user-select: text;
+            user-select: text;
+
+    color: inherit;
+}
+
+h4 small {
+    font-size: 16px;
+}
+
+h5 {
+    font-family: "spartanmb-bold";
     font-size: 16px;
     line-height: 1.7;
 
     max-width: 100%;
     margin-bottom: 20px;
+
+    -webkit-user-select: text;
+            user-select: text;
 
     color: inherit;
 }
@@ -93,6 +123,9 @@ h4 {
 p {
     margin-top: 0;
     margin-bottom: 16px;
+
+    -webkit-user-select: text;
+            user-select: text;
 }
 
 a {
