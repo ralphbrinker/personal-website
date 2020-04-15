@@ -17,15 +17,6 @@
         }, false);
     });
 
-    // Lightbox
-    const lightboxes = document.querySelectorAll('.js-lightbox');
-
-    for (const lightbox of lightboxes) {
-        lightbox.addEventListener('click', (event) => {
-            lightbox.classList.toggle('looks__item--lightbox');
-        });
-    }
-
     // Send form submit
     const form = document.querySelector('.js-form');
     const formTitle = document.querySelector('.js-title');

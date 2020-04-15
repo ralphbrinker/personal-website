@@ -46,6 +46,27 @@ button[class^="icon-"] {
     background-image: url("/assets/images/icon-search.svg");
 }
 
+.icon-dribbble {
+    width: 58px;
+    height: 58px;
+
+    background-image: url("/assets/images/icon-dribbble.svg");
+}
+
+.icon-down-arrow {
+    width: 60px;
+    height: 76px;
+
+    background-image: url("/assets/images/icon-down-arrow.svg");
+}
+
+.icon-user-interface {
+    width: 62px;
+    height: 86px;
+
+    background-image: url("/assets/images/icon-user-interface.svg");
+}
+
 /* Arrows */
 i[class^="arrow-"],
 a[class^="arrow-"],

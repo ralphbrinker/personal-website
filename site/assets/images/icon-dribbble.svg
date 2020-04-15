@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icons8-dribbble</title>
+    <desc>Created with Sketch.</desc>
+    <g id="screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="s4-home" transform="translate(-821.000000, -2353.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="dribbble" transform="translate(680.000000, 2212.000000)">
+                <g id="icons8-dribbble" transform="translate(142.000000, 142.000000)">
+                    <path d="M26.072,49.916 L25.897,51.908 M21.191,48.923 L20.573,50.825 M16.658,46.857 L15.628,48.572 M9.538,39.982 L7.861,41.071 M7.316,35.524 L5.436,36.208 M28,56 C12.56,56 0,43.44 0,28 C0,12.56 12.56,0 28,0 C43.44,0 56,12.56 56,28 C56,43.44 43.44,56 28,56 Z" id="Shape" stroke-linecap="round"></path>
+                    <path d="M40.336,53.15 C40.028,51.125 35.216,21.209 17.184,2.158 M9.154,48.701 C10.702,45.79 24.073,22.8 55.674,32.276" id="Shape"></path>
+                    <path d="M0.179,24.826 C2.487,25.001 26.61,26.547 41,15.717 M44,13.09 C44.523,12.571 45.018,12.021 45.5,11.457" id="Shape" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
