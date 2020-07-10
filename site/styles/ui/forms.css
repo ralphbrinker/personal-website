@@ -1,0 +1,115 @@
+label,
+.label {
+    font-family: inherit;
+    font-size: 12px;
+
+    padding: 15px 0;
+
+    text-transform: uppercase;
+
+    color: inherit;
+}
+
+.legend,
+legend {
+    font-family: inherit;
+    font-size: 32px;
+    line-height: 1.2;
+
+    margin-bottom: 24px;
+
+    color: inherit;
+}
+
+input,
+select,
+textarea {
+    font-family: "spartanmb-regular";
+    font-size: inherit;
+
+    display: block;
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+
+    color: inherit;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    outline: 1px solid #d1dade;
+    background-color: #ffffff;
+
+    -webkit-appearance: none;
+            appearance: none;
+}
+
+textarea {
+    margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #3b3d3e;
+    outline: 1px solid #3b3d3e;
+    outline-color: #3b3d3e;
+}
+
+input:focus:invalid:not(:focus):not(:placeholder-shown),
+textarea:focus:invalid:not(:focus):not(:placeholder-shown) {
+    border-color: #ea5168;
+    background-color: #f7eaec;
+}
+
+::-webkit-input-placeholder {
+    font-family: inherit;
+    font-size: 10px;
+
+    text-transform: uppercase;
+    /* Chrome/Opera/Safari */
+
+    opacity: 0;
+    color: #3b3d3e;
+}
+
+::-moz-placeholder {
+    font-family: inherit;
+    font-size: 10px;
+
+    text-transform: uppercase;
+    /* Firefox 19+ */
+
+    opacity: 0;
+    color: #3b3d3e;
+}
+
+:-ms-input-placeholder {
+    font-family: inherit;
+    font-size: 10px;
+
+    text-transform: uppercase;
+    /* IE 10+ */
+
+    opacity: 0;
+    color: #3b3d3e;
+}
+
+/* Media queries */
+
+
+/* Small */
+@media (max-width: 425px) {
+    ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        opacity: 0.5;
+    }
+
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        opacity: 0.5;
+    }
+
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        opacity: 0.5;
+    }
+}

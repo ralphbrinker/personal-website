@@ -1,0 +1,79 @@
+/* Icons */
+i[class^="icon-"],
+a[class^="icon-"],
+button[class^="icon-"] {
+    display: inline-block;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-time {
+    width: 38px;
+    height: 42px;
+
+    background-image: url("/assets/images/icon-time.svg");
+}
+
+
+.icon-growth {
+    width: 36px;
+    height: 36px;
+
+    background-image: url("/assets/images/icon-growth.svg");
+}
+
+
+.icon-costs {
+    width: 44px;
+    height: 40px;
+
+    background-image: url("/assets/images/icon-costs.svg");
+}
+
+.icon-triangle {
+    width: 10px;
+    height: 10px;
+
+    background-image: url("/assets/images/icon-triangle.svg");
+}
+
+.icon-search {
+    width: 36px;
+    height: 36px;
+
+    background-image: url("/assets/images/icon-search.svg");
+}
+
+.icon-dribbble {
+    width: 58px;
+    height: 58px;
+
+    background-image: url("/assets/images/icon-dribbble.svg");
+}
+
+.icon-down-arrow {
+    width: 60px;
+    height: 76px;
+
+    background-image: url("/assets/images/icon-down-arrow.svg");
+}
+
+.icon-user-interface {
+    width: 62px;
+    height: 86px;
+
+    background-image: url("/assets/images/icon-user-interface.svg");
+}
+
+/* Arrows */
+i[class^="arrow-"],
+a[class^="arrow-"],
+button[class^="arrow-"] {
+    display: inline-block;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

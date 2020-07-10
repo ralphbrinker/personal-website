@@ -1,0 +1,124 @@
+.button {
+    font-family: "spartanmb-bold";
+    font-size: 14px;
+    line-height: 1;
+
+    position: relative;
+
+    display: inline-block;
+
+    min-width: 220px;
+    margin: 0;
+    padding: 24px 0;
+
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transition: all 0.4s ease;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+
+    color: #ffffff;
+    border: 1px solid #e94e6c;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, #e94e6c 0%, #e94e6b 9%, #e95069 19%, #ea5166 28%, #ea5462 38%, #ea565d 48%, #eb5957 57%, #eb5c51 66%, #eb5e4b 74%, #ec6145 81%, #ec6340 87%, #ec653b 93%, #ec6737 97%, #ec6834 99%, #ec6833 100%);
+
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+
+.button:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+}
+
+.button:hover {
+    color: #eb5957;
+    background-color: #ffffff;
+    background-image: none;
+}
+
+.button--disable,
+.button[disabled] {
+    pointer-events: none;
+
+    opacity: 0.5;
+}
+
+.button--block {
+    display: block;
+
+    width: 100%;
+}
+
+/* Hamburger */
+.button-hamburger {
+    position: relative;
+
+    width: 40px;
+    height: 4px;
+
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: translateY(-14px);
+            transform: translateY(-14px);
+
+    background-color: var(--black);
+}
+
+
+.button-hamburger::before,
+.button-hamburger::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 4px;
+
+    content: "";
+    transition: all 0.4s ease-in-out;
+
+    background-color: var(--black);
+}
+
+
+.button-hamburger::before {
+    -webkit-transform: translateY(14px) rotate(-15deg);
+            transform: translateY(14px) rotate(-15deg);
+}
+
+.button-hamburger::after {
+    -webkit-transform: translateY(28px);
+            transform: translateY(28px);
+}
+
+.button-hamburger--active::before {
+    -webkit-transform: rotate(0deg) translateY(4px);
+            transform: rotate(0deg) translateY(4px);
+}
+
+.button-hamburger--active::after {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+}
+
+/* Media queries */
+
+/* Small */
+@media (max-width: 375px) {
+    .button-hamburger {
+        background-color: var(--white);
+    }
+
+    .button-hamburger::before,
+    .button-hamburger::after {
+        background-color: var(--white);
+    }
+}
