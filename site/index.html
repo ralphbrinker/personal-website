@@ -1,243 +1,466 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            Ralph Brinker | Customer-Centric Product Designer | Europe and U.S.
+        </title>
+        <meta
+            name="description"
+            content="I develop digital products that people love and buy. Design is about customer and business goals + results. Improve adoption, increase revenue, reduce costs."
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-<head>
-    <meta charset="utf-8">
-    <title>Ralph Brinker | Customer-Centric Product Designer | Europe and U.S.</title>
-    <meta name="description" content="I develop digital products that people love and buy. Design is about customer and business goals + results. Improve adoption, increase revenue, reduce costs.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="apple-touch-icon" href="assets/images/icon.png" />
+        <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
-    <link rel="apple-touch-icon" href="assets/images/icon.png">
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" href="styles/main.css" />
 
-    <link rel="stylesheet" href="styles/main.css">
+        <meta name="theme-color" content="#ffffff" />
+    </head>
 
-    <meta name="theme-color" content="#ffffff">
-</head>
+    <body>
+        <!--[if IE]>
+            <p class="browserupgrade">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="https://browsehappy.com/">upgrade your browser</a> to
+                improve your experience and security.
+            </p>
+        <![endif]-->
 
-<body>
-    <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
+        <!-- Add your site or application content here -->
+        <header class="box flex end between header">
+            <figure class="flex header__logo">
+                <a href="/">
+                    <img
+                        class="header__logo-image"
+                        src="/assets/images/logo.png"
+                        srcset="/assets/images/logo@2x.png 2x"
+                        alt="Ralph Brinker"
+                    />
+                </a>
+            </figure>
 
-    <!-- Add your site or application content here -->
-    <header class="box flex end between header">
-        <figure class="flex header__logo">
-            <a href="/">
-                <img class="header__logo-image" src="/assets/images/logo.png"  srcset="/assets/images/logo@2x.png 2x" alt="Ralph Brinker" />
-            </a>
-        </figure>
+            <input
+                id="nav-trigger"
+                class="hidden"
+                name="nav-trigger"
+                type="checkbox"
+            />
+            <label class="header__nav-trigger" for="nav-trigger"></label>
+            <nav class="flex middle between header__nav">
+                <a href="#services" class="link js-scroll">Services</a>
+                <a href="#projects" class="link js-scroll">Projects</a>
+                <a href="/blog" class="link">Blog</a>
+                <a href="#contact" class="link js-scroll">Contact</a>
+            </nav>
+        </header>
 
-        <input id="nav-trigger" class="hidden" name="nav-trigger" type="checkbox">
-        <label class="header__nav-trigger" for="nav-trigger"></label>
-        <nav class="flex middle between header__nav">
-            <a href="#services" class="link js-scroll">Services</a>
-            <a href="#projects" class="link js-scroll">Projects</a>
-            <a href="/blog" class="link">Blog</a>
-            <a href="#contact" class="link js-scroll">Contact</a>
-        </nav>
-    </header>
+        <section class="box flex flex-row hero">
+            <hgroup class="flex flex-3 column center start-md text--left">
+                <h1 class="hero__title">Ralph<strong>Brinker</strong></h1>
+                <h2>Customer-Centric Product Development</h2>
+                <h4>
+                    I help companies develop products that people love and buy
+                </h4>
+            </hgroup>
+            <figure class="flex-3">
+                <picture>
+                    <source
+                        media="(max-width: 425px)"
+                        srcset="
+                            /assets/images/ralph-brinker-small.jpg    1x,
+                            /assets/images/ralph-brinker-small@2x.jpg 2x
+                        "
+                    />
+                    <source
+                        media="(max-width: 768px)"
+                        srcset="
+                            /assets/images/ralph-brinker-medium.jpg    1x,
+                            /assets/images/ralph-brinker-medium@2x.jpg 2x
+                        "
+                    />
+                    <img
+                        class="hero__image"
+                        src="/assets/images/ralph-brinker.jpg"
+                        srcset="
+                            /assets/images/ralph-brinker.jpg    1x,
+                            /assets/images/ralph-brinker@2x.jpg 2x
+                        "
+                        alt="Ralph Brinker"
+                    />
+                </picture>
+            </figure>
+        </section>
 
-    <section class="box flex flex-row hero">
-        <hgroup class="flex flex-3 column center start-md text--left">
-            <h1 class="hero__title">Ralph<strong>Brinker</strong></h1>
-            <h2>Customer-Centric Product Development</h2>
-            <h4>I help companies develop products that people love and buy</h4>
-        </hgroup>
-        <figure class="flex-3">
-            <picture>
-                <source media="(max-width: 425px)" srcset="/assets/images/ralph-brinker-small.jpg 1x, /assets/images/ralph-brinker-small@2x.jpg 2x" />
-                <source media="(max-width: 768px)" srcset="/assets/images/ralph-brinker-medium.jpg 1x, /assets/images/ralph-brinker-medium@2x.jpg 2x" />
-                <img class="hero__image" src="/assets/images/ralph-brinker.jpg" srcset="/assets/images/ralph-brinker.jpg 1x, /assets/images/ralph-brinker@2x.jpg 2x" alt="Ralph Brinker" />
-            </picture>
-        </figure>
-    </section>
-
-    <main class="box help">
-        <hr>
-        <h1>How I can help you</h1>
-        <ul class="grid column-3 gap-60 gap-20-sm">
-            <li class="flex-3 flex-5-md flex-6-sm help__item help__item--churn">
-                <p><b>Reducing churn rates</b> could mean the difference between failure and success. A lot of the growth in a business in dependent on retaining customers. A suberb experience is a key component of how you keep people onboard.</p>
-            </li>
-            <li class="flex-3 flex-5-md flex-6-sm help__item help__item--mental">
-                <p>A customer values and chooses a product based on its benefit higher than its function. <b>The way your product present itself and function</b> must match the way people think about their problems, challenges and goals.</p>
-            </li>
-            <li class="flex-3 flex-5-md flex-6-sm help__item help__item--onboarding">
-                <p>Investing in the <b>first experience people have with your product</b> could lead to a considerable increase in adoption. It is crucial for people to feel comfortable and to comprehend the product they are interacting with from day one.</p>
-            </li>
-        </ul>
-    </main>
-
-    <section class="box services" name="services">
-        <hr>
-        <article class="flex">
-            <h1 class="flex-2 flex-6-md">Services</h1>
-            <ul class="flex-3 flex-6-md grid row-3 column-8-sm gap-20">
-                <li class="services__item">User research</li>
-                <li class="services__item">Usability testing</li>
-                <li class="services__item">Interface design</li>
-                <li class="services__item">Product strategy</li>
-                <li class="services__item">Heuristic evaluation</li>
-                <li class="services__item">Prototyping</li>
-                <li class="services__item">Service design</li>
-                <li class="services__item">Product/Market fit analysis</li>
+        <main class="box help">
+            <hr />
+            <h1>How I can help you</h1>
+            <ul class="grid column-3 gap-60 gap-20-sm">
+                <li
+                    class="flex-3 flex-5-md flex-6-sm help__item help__item--churn"
+                >
+                    <p>
+                        <b>Reducing churn rates</b> could mean the difference
+                        between failure and success. A lot of the growth in a
+                        business in dependent on retaining customers. A suberb
+                        experience is a key component of how you keep people
+                        onboard.
+                    </p>
+                </li>
+                <li
+                    class="flex-3 flex-5-md flex-6-sm help__item help__item--mental"
+                >
+                    <p>
+                        A customer values and chooses a product based on its
+                        benefit higher than its function.
+                        <b>The way your product present itself and function</b>
+                        must match the way people think about their problems,
+                        challenges and goals.
+                    </p>
+                </li>
+                <li
+                    class="flex-3 flex-5-md flex-6-sm help__item help__item--onboarding"
+                >
+                    <p>
+                        Investing in the
+                        <b>first experience people have with your product</b>
+                        could lead to a considerable increase in adoption. It is
+                        crucial for people to feel comfortable and to comprehend
+                        the product they are interacting with from day one.
+                    </p>
+                </li>
             </ul>
-        </article>
-    </section>
+        </main>
 
-    <section class="box looks" name="projects">
-        <hr>
-        <h1>How it looks</h1>
-        <ul class="grid row-3 column-3-md gap-20 gap-40-sm">
-            <li class="looks__item looks__item--dribbble">
-                <a class="flex center middle looks__link" href="https://dribbble.com/ralphbrinker" target="_blank">
-                    <i class="looks__icon icon-dribbble"></i>
-                    <span class="looks__description">View Dribbble profile</span>
-                </a>
-            </li>
-            <li class="looks__item looks__item--showcase">
-                <a class="flex center middle looks__link" href="assets/media/Ralph-Brinker-Showcase.pdf" download>
-                    <i class="looks__icon icon-down-arrow"></i>
-                    <span class="looks__description">Download projects showcase</span>
-                </a>
-            </li>
-            <li class="looks__item looks__item--prototype">
-                <a class="flex center middle looks__link" href="https://marvelapp.com/prototype/1j251966" target="_blank">
-                    <i class="looks__icon icon-user-interface"></i>
-                    <span class="looks__description">A typical prototype</span>
-                </a>
-            </li>
-       </ul>
-    </section>
-
-    <article class="box impacts">
-        <hr>
-        <h1>How it impacts</h1>
-        <ul class="grid column-3 gap-20">
-           <li class="flex flex-row middle impacts__item">
-               <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
-                   <img class="impacts__image" src="assets/images/erica-muller.jpg" srcset="assets/images/erica-muller@2x.jpg 2x" alt="Erica Muller" />
-                </figure>
-                <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
-                    <p class="impacts__quote">“He is incredible to work with. His work has been completely on target.”</p>
-                    <footer class="impacts__footer"><small>-Erica Muller, Vrolio</small></footer>
-                </blockquote>
-           </li>
-           <li class="flex flex-row middle impacts__item">
-               <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
-                   <img class="impacts__image" src="assets/images/rainer-flor.jpg" srcset="assets/images/rainer-flor@2x.jpg 2x" alt="Rainer Flor" />
-                </figure>
-                <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
-                    <p class="impacts__quote">“His attention to detail and technical approach connects the dots between feature and function, ultimately improving the overall experience.”</p>
-                    <footer class="impacts__footer"><small>-Rainer Flor, PhotoDay</small></footer>
-                </blockquote>
-           </li>
-           <li class="flex flex-row middle impacts__item">
-               <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
-                   <img class="impacts__image" src="assets/images/jesse-rodrigues.jpg" srcset="assets/images/jesse-rodrigues@2x.jpg 2x" alt="Jesse Rodrigues" />
-                </figure>
-                <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
-                    <p class="impacts__quote">“Someone truly capable of delivering value. The project ran so smoothly! If you are looking for mastery and work ethic, this is your guy.”</p>
-                    <footer class="impacts__footer"><small>-Jesse Rodrigues, Digital Marketing School</small></footer>
-                </blockquote>
-           </li>
-       </ul>
-    </article>
-
-    <footer class="footer">
-        <div class="box flex">
-            <hr class="hidden first visible-md">
-            <section class="flex-3 flex-6-md">
-                <h3 class="footer__title visible js-title">Tell me about what you need to achieve</h3>
-
-                <!-- Messages -->
-                <aside class="hidden animate js-thanks">
-                    <h3 class="text--success">Thank you for reaching out</h3>
-                    <p>I will get back to you shortly :)</p>
-                </aside>
-
-                <aside class="hidden animate js-error">
-                    <h3 class="text--error">Sorry, but something went wrong</h3>
-                    <p>Please, try to send the message again</p>
-                </aside>
-
-                <form class="footer__contact opaque js-form" name="contact">
-                    <div class="flex">
-                        <label class="flex-2 hidden-sm" for="name">Name*</label>
-                        <input id="name" class="flex-3 footer__input" type="text" name="name" maxlength="50" autocomplete="name" placeholder="Name*" required />
-                    </div>
-                    <div class="flex">
-                        <label class="flex-2 hidden-sm" for="company">Company*</label>
-                        <input id="company" class="flex-3 footer__input" type="text" name="company" maxlength="50" autocomplete="company" placeholder="Company*" required />
-                    </div>
-                    <div class="flex">
-                        <label class="flex-2 hidden-sm" for="email">Email*</label>
-                        <input id="email" class="flex-3 footer__input" type="email" name="email" maxlength="50" autocomplete="email" placeholder="Email*" required />
-                    </div>
-                    <div class="flex">
-                        <label class="flex-2 hidden-sm" for="phone">Phone</label>
-                        <input id="phone" class="flex-3 footer__input" type="tel" name="phone" autocomplete="phone" placeholder="Phone" />
-                    </div>
-                    <div class="flex">
-                        <label class="flex-2 hidden-sm" for="message">Message</label>
-                        <textarea id="message" class="flex-3 footer__input" name="message" rows="4" placeholder="Message" maxlength="144"></textarea>
-                    </div>
-
-                    <div class="flex end start-sm">
-                        <div class="flex-4 flex-6-sm g-recaptcha footer__contact-recaptcha" data-sitekey="6LfeJbMUAAAAAGaeeH1aL26waLxaHLDtX3BIJ7UC"></div>
-                    </div>
-
-                    <footer class="flex">
-                        <small class="flex-2 flex-6-sm self-center-md"><b>*required fields</b></small>
-                        <button class="button footer__button js-send" name="button" type="submit">Send</button>
-                    </footer>
-                </form>
-
-                <address class="h-card footer__address">
-                    <span class="p-company">Ralph Brinker</span>&nbsp;&nbsp;<i class="icon-triangle"></i>&nbsp;&nbsp;
-                    <span class="p-locality">Lisbon, Portugal</span>&nbsp;&nbsp;<i class="icon-triangle"></i>&nbsp;&nbsp;
-                    <span class="p-tel">+351 918 956 980</span>
-                </address>
-            </section>
-            <article class="flex-3 flex-6-md first-md footer__blog">
-                <h1>Blog</h1>
-                <ul>
-                    <li>
-                        <h3 class="footer__post"><a href="/blog/posts/three-architecture-principles-to-guide-you.html">Three Architecture Principles that Should be Guiding the Way You Design</a></h3><br>
-                        <time class="footer__date" datetime="2019-08-26">October 5, 2019</time>
-                    </li>
-                    <li>
-                        <h3 class="footer__post"><a href="/blog/posts/feature-discovery-avoid-wasted-work.html">Feature Discovery: Avoiding Wasted Work</a></h3><br>
-                        <time class="footer__date" datetime="2019-08-26">September 12, 2019</time>
-                    </li>
-                    <li>
-                        <h3 class="footer__post"><a href="/blog/posts/principles-effective-onboarding.html">Principles on Effective Onboarding</a></h3><br>
-                        <time class="footer__date" datetime="2019-08-26">August 26, 2019</time>
-                    </li>
+        <section class="box services" name="services">
+            <hr />
+            <article class="flex">
+                <h1 class="flex-2 flex-6-md">Services</h1>
+                <ul class="flex-3 flex-6-md grid row-3 column-8-sm gap-20">
+                    <li class="services__item">User research</li>
+                    <li class="services__item">Usability testing</li>
+                    <li class="services__item">Interface design</li>
+                    <li class="services__item">Product strategy</li>
+                    <li class="services__item">Heuristic evaluation</li>
+                    <li class="services__item">Prototyping</li>
+                    <li class="services__item">Service design</li>
+                    <li class="services__item">Product/Market fit analysis</li>
                 </ul>
             </article>
-        </div>
-    </footer>
+        </section>
 
-    <!-- Plugins -->
-    <script src="scripts/plugins/smoothscroll.min.js" async></script>
+        <section class="box looks" name="projects">
+            <hr />
+            <h1>How it looks</h1>
+            <ul class="grid row-3 column-3-md gap-20 gap-40-sm">
+                <li class="looks__item looks__item--dribbble">
+                    <a
+                        class="flex center middle looks__link"
+                        href="https://dribbble.com/ralphbrinker"
+                        target="_blank"
+                    >
+                        <i class="looks__icon icon-dribbble"></i>
+                        <span class="looks__description"
+                            >View Dribbble profile</span
+                        >
+                    </a>
+                </li>
+                <li class="looks__item looks__item--showcase">
+                    <a
+                        class="flex center middle looks__link"
+                        href="assets/media/Ralph-Brinker-Showcase.pdf"
+                        download
+                    >
+                        <i class="looks__icon icon-down-arrow"></i>
+                        <span class="looks__description"
+                            >Download projects showcase</span
+                        >
+                    </a>
+                </li>
+                <li class="looks__item looks__item--prototype">
+                    <a
+                        class="flex center middle looks__link"
+                        href="https://marvelapp.com/prototype/1j251966"
+                        target="_blank"
+                    >
+                        <i class="looks__icon icon-user-interface"></i>
+                        <span class="looks__description"
+                            >A typical prototype</span
+                        >
+                    </a>
+                </li>
+            </ul>
+        </section>
 
-    <!-- Main -->
-    <script src="scripts/main.js" async></script>
+        <article class="box impacts">
+            <hr />
+            <h1>How it impacts</h1>
+            <ul class="grid column-3 gap-20">
+                <li class="flex flex-row middle impacts__item">
+                    <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
+                        <img
+                            class="impacts__image"
+                            src="assets/images/erica-muller.jpg"
+                            srcset="assets/images/erica-muller@2x.jpg 2x"
+                            alt="Erica Muller"
+                        />
+                    </figure>
+                    <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
+                        <p class="impacts__quote">
+                            “He is incredible to work with. His work has been
+                            completely on target.”
+                        </p>
+                        <footer class="impacts__footer">
+                            <small>-Erica Muller, Vrolio</small>
+                        </footer>
+                    </blockquote>
+                </li>
+                <li class="flex flex-row middle impacts__item">
+                    <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
+                        <img
+                            class="impacts__image"
+                            src="assets/images/rainer-flor.jpg"
+                            srcset="assets/images/rainer-flor@2x.jpg 2x"
+                            alt="Rainer Flor"
+                        />
+                    </figure>
+                    <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
+                        <p class="impacts__quote">
+                            “His attention to detail and technical approach
+                            connects the dots between feature and function,
+                            ultimately improving the overall experience.”
+                        </p>
+                        <footer class="impacts__footer">
+                            <small>-Rainer Flor, PhotoDay</small>
+                        </footer>
+                    </blockquote>
+                </li>
+                <li class="flex flex-row middle impacts__item">
+                    <figure class="flex-1 flex-2-md flex-6-sm impacts__figure">
+                        <img
+                            class="impacts__image"
+                            src="assets/images/jesse-rodrigues.jpg"
+                            srcset="assets/images/jesse-rodrigues@2x.jpg 2x"
+                            alt="Jesse Rodrigues"
+                        />
+                    </figure>
+                    <blockquote class="flex-3 flex-4-md flex-6-sm first-sm">
+                        <p class="impacts__quote">
+                            “Someone truly capable of delivering value. The
+                            project ran so smoothly! If you are looking for
+                            mastery and work ethic, this is your guy.”
+                        </p>
+                        <footer class="impacts__footer">
+                            <small
+                                >-Jesse Rodrigues, Digital Marketing
+                                School</small
+                            >
+                        </footer>
+                    </blockquote>
+                </li>
+            </ul>
+        </article>
 
-    <!-- reCAPTCHA -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <footer class="footer">
+            <div class="box flex">
+                <hr class="hidden first visible-md" />
+                <section class="flex-3 flex-6-md">
+                    <h3 class="footer__title visible js-title">
+                        Tell me about what you need to achieve
+                    </h3>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143056927-3" async></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+                    <!-- Messages -->
+                    <aside class="hidden animate js-thanks">
+                        <h3 class="text--success">
+                            Thank you for reaching out
+                        </h3>
+                        <p>I will get back to you shortly :)</p>
+                    </aside>
 
-        gtag('config', 'UA-143056927-3');
-    </script>
-</body>
+                    <aside class="hidden animate js-error">
+                        <h3 class="text--error">
+                            Sorry, but something went wrong
+                        </h3>
+                        <p>Please, try to send the message again</p>
+                    </aside>
 
+                    <form class="footer__contact opaque js-form" name="contact">
+                        <div class="flex">
+                            <label class="flex-2 hidden-sm" for="name"
+                                >Name*</label
+                            >
+                            <input
+                                id="name"
+                                class="flex-3 footer__input"
+                                type="text"
+                                name="name"
+                                maxlength="50"
+                                autocomplete="name"
+                                placeholder="Name*"
+                                required
+                            />
+                        </div>
+                        <div class="flex">
+                            <label class="flex-2 hidden-sm" for="company"
+                                >Company*</label
+                            >
+                            <input
+                                id="company"
+                                class="flex-3 footer__input"
+                                type="text"
+                                name="company"
+                                maxlength="50"
+                                autocomplete="company"
+                                placeholder="Company*"
+                                required
+                            />
+                        </div>
+                        <div class="flex">
+                            <label class="flex-2 hidden-sm" for="email"
+                                >Email*</label
+                            >
+                            <input
+                                id="email"
+                                class="flex-3 footer__input"
+                                type="email"
+                                name="email"
+                                maxlength="50"
+                                autocomplete="email"
+                                placeholder="Email*"
+                                required
+                            />
+                        </div>
+                        <div class="flex">
+                            <label class="flex-2 hidden-sm" for="phone"
+                                >Phone</label
+                            >
+                            <input
+                                id="phone"
+                                class="flex-3 footer__input"
+                                type="tel"
+                                name="phone"
+                                autocomplete="phone"
+                                placeholder="Phone"
+                            />
+                        </div>
+                        <div class="flex">
+                            <label class="flex-2 hidden-sm" for="message"
+                                >Message</label
+                            >
+                            <textarea
+                                id="message"
+                                class="flex-3 footer__input"
+                                name="message"
+                                rows="4"
+                                placeholder="Message"
+                                maxlength="144"
+                            ></textarea>
+                        </div>
+
+                        <div class="flex end start-sm">
+                            <div
+                                class="flex-4 flex-6-sm g-recaptcha footer__contact-recaptcha"
+                                data-sitekey="6LfeJbMUAAAAAGaeeH1aL26waLxaHLDtX3BIJ7UC"
+                            ></div>
+                        </div>
+
+                        <footer class="flex">
+                            <small class="flex-2 flex-6-sm self-center-md"
+                                ><b>*required fields</b></small
+                            >
+                            <button
+                                class="button footer__button js-send"
+                                name="button"
+                                type="submit"
+                            >
+                                Send
+                            </button>
+                        </footer>
+                    </form>
+
+                    <address class="h-card footer__address">
+                        <span class="p-company">Ralph Brinker</span
+                        >&nbsp;&nbsp;<i class="icon-triangle"></i>&nbsp;&nbsp;
+                        <span class="p-locality">Lisbon, Portugal</span
+                        >&nbsp;&nbsp;<i class="icon-triangle"></i>&nbsp;&nbsp;
+                        <span class="p-tel">+351 918 956 980</span>
+                    </address>
+                </section>
+                <article class="flex-3 flex-6-md first-md footer__blog">
+                    <h1>Blog</h1>
+                    <ul>
+                        <li>
+                            <h3 class="footer__post">
+                                <a href="/blog/posts/the-promise.html"
+                                    >The Promise</a
+                                >
+                            </h3>
+                            <br />
+                            <time class="footer__date" datetime="2020-08-05"
+                                >August 5, 2020</time
+                            >
+                        </li>
+                        <li>
+                            <h3 class="footer__post">
+                                <a
+                                    href="/blog/posts/three-architecture-principles-to-guide-you.html"
+                                    >Three Architecture Principles that Should
+                                    be Guiding the Way You Design</a
+                                >
+                            </h3>
+                            <br />
+                            <time class="footer__date" datetime="2019-10-05"
+                                >October 5, 2019</time
+                            >
+                        </li>
+                        <li>
+                            <h3 class="footer__post">
+                                <a
+                                    href="/blog/posts/feature-discovery-avoid-wasted-work.html"
+                                    >Feature Discovery: Avoiding Wasted Work</a
+                                >
+                            </h3>
+                            <br />
+                            <time class="footer__date" datetime="2019-09-12"
+                                >September 12, 2019</time
+                            >
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </footer>
+
+        <!-- Plugins -->
+        <script src="scripts/plugins/smoothscroll.min.js" async></script>
+
+        <!-- Main -->
+        <script src="scripts/main.js" async></script>
+
+        <!-- reCAPTCHA -->
+        <script
+            src="https://www.google.com/recaptcha/api.js"
+            async
+            defer
+        ></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-143056927-3"
+            async
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-143056927-3");
+        </script>
+    </body>
 </html>
