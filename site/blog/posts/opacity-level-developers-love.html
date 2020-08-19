@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Opacity Level Developers Love</title>
+    <meta name="description" content="Variables could be defined as slots to store data. That makes it possible to reuse data in multiple places. Colors are no exception. So, to save time and improve the code's structure, developers create variables that store colors.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" href="../../assets/images/icon.png">
+    <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+
+    <link rel="stylesheet" href="../../styles/main.css">
+
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <header class="box flex end between header">
+        <figure class="flex header__logo">
+            <a href="/">
+                <img class="header__logo-image" src="/assets/images/logo.png"  srcset="/assets/images/logo@2x.png 2x" alt="Ralph Brinker" />
+            </a>
+        </figure>
+
+        <input id="nav-trigger" class="hidden" name="nav-trigger" type="checkbox">
+        <label class="header__nav-trigger" for="nav-trigger"></label>
+        <nav class="flex middle between header__nav">
+            <a href="/#services" class="link">Services</a>
+            <a href="/#projects" class="link">Projects</a>
+            <a href="/blog" class="link link--active">Blog</a>
+            <a href="/#contact" class="link">Contact</a>
+        </nav>
+    </header>
+
+    <article class="box box--small post">
+        <header class="post__header">
+            <a href="/blog" class="link">All posts</a>
+        </header>
+
+        <h3>The Opacity Level Developers Love</h3>
+
+        <p class="blog__paragraph">Variables could be defined as slots to store data. That makes it possible to reuse data in multiple places.</p>
+        
+        <p class="blog__paragraph">Colors are no exception. So, to save time and improve the code's structure, developers create variables that store colors.</p>
+        
+        <p class="blog__paragraph">Instead of having #23B6DA as the background of that button, you may have something like $color-blue-primary.</p>
+        
+        <h5>Not so scalable</h5>
+        <p class="blog__paragraph">button { background-color: #23B6DA; }</p>
+        
+        <h5>More scalable</h5>
+        <p class="blog__paragraph">button { background-color: @color-primary-blue; }</p>
+        
+        <p class="blog__paragraph">What if the brand is updated, and now the right blue is #96D9FF? No problem. Instead of editing the 37 lines of code that mention #23B6DA, the only thing that needs to be changed is the color value associated with $color-blue-primary.</p>
+        
+        <h5>Before the brand's update:</h5>
+        <p class="blog__paragraph">@color-primary-blue: #23B6DA;</p>
+        
+        <h5>After the update:</h5>
+        <p class="blog__paragraph">@color-primary-blue: #96D9FF;</p>
+        
+        <p class="blog__paragraph">So far, I've shown colors as HEX codes, and most developers will prefer to use it as the default. HEX is easier to spot and only require one input, instead of the multiple ones necessary in RGB, for example. The problem is that for up until recently, there was little browser support for HEX alpha transparency.</p>
+        
+        <p class="blog__paragraph">That's why usually, RGB format will be involved when opacity is needed. When I found out about these implications, I thought I could switch to RGB, and everything would be fine. Not at all.</p>
+        
+        <p class="blog__paragraph">Although there's more support from browsers, it's considered good practice to adopt color variables based on HEX. Since then, I still use opacity to find the colors that I need, but once I get the result I want, I use the color picker to get the "real" color. That's how now I deliver a file that only has colors with opacity set to 100%.</p>
+        
+        <h5>How I used to deliver:</h5>
+        <p class="blog__paragraph">• White text with 80 or 90% to smooth the contrast with the background
+        <br>• Primary branding colors with different opacity levels to "find" subtle color variations
+        <br>• Grey backgrounds based on lower opacity levels (3 to 10%)
+        <br>• Thin lines and borders that used lighter shades of the primary color achieved with lower opacity levels</p>
+        
+        <h5>How I deliver now:</h5>
+        <p class="blog__paragraph">• All the colors have opacity set to 100%</p>
+        
+    </article>
+
+    <footer class="footer footer--blog">
+        <nav class="box box--small flex">
+            <a href="/blog" class="link">All posts</a>
+        </nav>
+        <address class="box h-card footer__address">
+            <span class="p-company">Ralph Brinker</span>&nbsp;&nbsp;<i class="icon-triangle"></i>&nbsp;&nbsp;
+            <span class="p-locality">Lisbon, Portugal</span>&nbsp;&nbsp;<i class="icon-triangle"></i>&nbsp;&nbsp;
+            <span class="p-tel">+351 918 956 980</span>
+        </address>
+    </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143056927-3" async></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143056927-3');
+    </script>
+</body>
+
+</html>
