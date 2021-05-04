@@ -195,14 +195,13 @@ textarea {
   visibility: hidden;
   transition: all .3s; }
   .popup__content {
-    min-width: 48rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
+    max-width: 75%;
     height: 80%;
-    padding: 3.2rem;
+    padding: 1.6rem;
     background-color: #FFF;
     box-shadow: 0 4px 24px rgba(77, 84, 84, 0.15);
     border-radius: 3px;
@@ -241,13 +240,17 @@ textarea {
   .popup__close:link, .popup__close:visited {
     color: #AEFFF2;
     position: absolute;
-    top: 4rem;
-    left: 4rem;
+    top: 2.4rem;
+    left: 2.4rem;
     font-size: 3rem;
     text-decoration: none;
     display: inline-block;
     transition: all .2s;
     line-height: 1; }
+    @media only screen and (min-width: 42.1875em) {
+      .popup__close:link, .popup__close:visited {
+        top: 4rem;
+        left: 4rem; } }
   .popup__close:hover {
     color: #83D1C4; }
 
@@ -496,8 +499,10 @@ textarea {
   .showcase__feature:nth-child(3) .header-tertiary {
     text-align: right; }
   .showcase__interface-shot {
+    width: 100%;
     max-width: 640px;
-    box-shadow: 0 4px 24px rgba(77, 84, 84, 0.15); }
+    box-shadow: 0 4px 24px rgba(77, 84, 84, 0.15);
+    overflow: hidden; }
     @media only screen and (min-width: 52.25em) {
       .showcase__interface-shot {
         max-width: 1280px; } }
